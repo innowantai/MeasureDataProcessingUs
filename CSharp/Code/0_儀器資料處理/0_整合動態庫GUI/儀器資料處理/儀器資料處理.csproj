@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44625002-9441-4BC7-8685-214DF7640B6D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>儀器資料處理</RootNamespace>
+    <AssemblyName>儀器資料處理</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExcelClass">
+      <HintPath>..\..\2.動態庫\ExcelClass\ExcelClass\bin\Debug\ExcelClass.dll</HintPath>
+    </Reference>
+    <Reference Include="GPS_RES">
+      <HintPath>..\..\2.動態庫\GPS_RES\GPS_RES\bin\Debug\GPS_RES.dll</HintPath>
+    </Reference>
+    <Reference Include="GPS_SORT">
+      <HintPath>..\..\2.動態庫\GPS_SORT\GPS_SORT\bin\Debug\GPS_SORT.dll</HintPath>
+    </Reference>
+    <Reference Include="GPS_SUM">
+      <HintPath>..\..\2.動態庫\GPS_SUM\GPS_SUM\bin\Debug\GPS_SUM.dll</HintPath>
+    </Reference>
+    <Reference Include="OBDAT">
+      <HintPath>..\..\2.動態庫\OBDAT\OBDAT\bin\Debug\OBDAT.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TheCmpExcelData">
+      <HintPath>..\..\2.動態庫\TheCmpExcelData\TheCmpExcelData\bin\Debug\TheCmpExcelData.dll</HintPath>
+    </Reference>
+    <Reference Include="TheGSI">
+      <HintPath>..\..\2.動態庫\TheGSI\TheGSI\bin\Debug\TheGSI.dll</HintPath>
+    </Reference>
+    <Reference Include="TheNIKONtoAGA">
+      <HintPath>..\..\2.動態庫\TheNIKONtoAGA\TheNIKONtoAGA\bin\Debug\TheNIKONtoAGA.dll</HintPath>
+    </Reference>
+    <Reference Include="TheZTStoAGA">
+      <HintPath>..\..\2.動態庫\TheZTStoAGA\TheZTStoAGA\bin\Debug\TheZTStoAGA.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

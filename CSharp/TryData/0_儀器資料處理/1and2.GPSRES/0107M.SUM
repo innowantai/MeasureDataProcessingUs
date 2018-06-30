@@ -1,0 +1,2134 @@
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00001                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : G2  0106.asc                                              
+Station ID: G2                                                                 
+Station (mark)    1        -3033086.227         5052882.626         2431359.003
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : FC170106.asc                                              
+Station ID: FC17A                                                             
+Station (mark)    2        -3033183.099         5052685.996         2431649.018
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -97.5599           -197.0242            290.0854
+row   1   .1417919053400D-03                                                   
+row   2  -.9788243298000D-04   .1157233085400D-03                              
+row   3  -.3612930666000D-04   .2417791896000D-04   .6262070852000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.75                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .044387(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00002                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : B6  0106.asc                                              
+Station ID: B6                                                                 
+Station (mark)    2        -3033037.403         5053337.510         2430437.968
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             62.7511            485.3656           -969.2190
+row   1   .3882817290000D-05                                                   
+row   2  -.2524973110000D-05   .4076600310000D-05                              
+row   3  -.1328302900000D-06   .6342145800000D-06   .1103565100000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.56                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .011448(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00003                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : G9  0106.asc                                              
+Station ID: G9                                                                 
+Station (mark)    2        -3033026.671         5053139.902         2430876.295
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             73.4248            287.7777           -530.9078
+row   1   .1120967874100D-03                                                   
+row   2  -.6565343655000D-04   .6736378077000D-04                              
+row   3  -.1624607756000D-04   .1404513997000D-04   .2360788817000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.00                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .040202(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00004                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1  0106.asc                                              
+Station ID: H1                                                                 
+Station (mark)    1        -3033079.788         5052802.111         2431538.094
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : FC170106.asc                                              
+Station ID: FC17A                                                             
+Station (mark)    2        -3033183.099         5052685.996         2431649.018
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1           -103.1310           -116.1945            110.8787
+row   1   .1339839886400D-03                                                   
+row   2  -.7536067694000D-04   .6411255190000D-04                              
+row   3  -.4544694570000D-04   .1950704765000D-04   .3684670364000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       1.86                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .047503(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00005                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1  0106.asc                                              
+Station ID: H1                                                                 
+Station (mark)    1        -3033079.788         5052802.111         2431538.094
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : G2  0106.asc                                              
+Station ID: G2                                                                 
+Station (mark)    2        -3033086.227         5052882.626         2431359.003
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             -5.5294             80.7589           -179.2470
+row   1   .1405897278400D-03                                                   
+row   2  -.9226997922000D-04   .8253115235000D-04                              
+row   3  -.6411601039000D-04   .5031125320000D-04   .6866801363000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.51                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .037721(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00006                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : KA090106.asc                                              
+Station ID: KA09                                                               
+Station (mark)    1        -3032503.919         5054211.675         2429110.611
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : FC170106.asc                                              
+Station ID: FC17A                                                             
+Station (mark)    2        -3033183.099         5052685.996         2431649.018
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1           -679.0864          -1525.6938           2538.3966
+row   1   .4875595557000D-04                                                   
+row   2  -.3264523257000D-04   .3596644834000D-04                              
+row   3  -.1321479852000D-04   .1050799830000D-04   .2040744945000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.51                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .017652(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00007                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : KA090106.asc                                              
+Station ID: KA09                                                               
+Station (mark)    2        -3032503.919         5054211.675         2429110.611
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            596.4506           1359.3880          -2296.5791
+row   1   .3094331776000D-04                                                   
+row   2  -.1114896530000D-04   .1000089781000D-04                              
+row   3   .2088986300000D-05   .2540623540000D-05   .6846038150000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.56                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .008375(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00008                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : KA100106.asc                                              
+Station ID: KA10                                                               
+Station (mark)    1        -3032514.060         5054251.331         2429002.952
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : G2  0106.asc                                              
+Station ID: G2                                                                 
+Station (mark)    2        -3033086.227         5052882.626         2431359.003
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1           -571.5135          -1368.2493           2356.0316
+row   1   .1517106853000D-03                                                   
+row   2  -.1024922791300D-03   .9451304985000D-04                              
+row   3  -.6800576935000D-04   .5884310894000D-04   .7517218639000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.10                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .045604(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00009                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : KA100106.asc                                              
+Station ID: KA10                                                               
+Station (mark)    1        -3032514.060         5054251.331         2429002.952
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : H1  0106.asc                                              
+Station ID: H1                                                                 
+Station (mark)    2        -3033079.788         5052802.111         2431538.094
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1           -565.8575          -1449.1197           2535.2102
+row   1   .3695965670000D-04                                                   
+row   2  -.2391179714000D-04   .2183232306000D-04                              
+row   3  -.1980002144000D-04   .1553117743000D-04   .2137060489000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.52                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .019316(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00010                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : KA100106.asc                                              
+Station ID: KA10                                                               
+Station (mark)    1        -3032514.060         5054251.331         2429002.952
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : KA090106.asc                                              
+Station ID: KA09                                                               
+Station (mark)    2        -3032503.919         5054211.675         2429110.611
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             10.0670            -39.6187            107.6794
+row   1   .1585863078000D-04                                                   
+row   2  -.1206470355000D-04   .1209243927000D-04                              
+row   3  -.6632658820000D-05   .6175385500000D-05   .6398022340000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.11                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .011618(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00011                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : M3  0106.asc                                              
+Station ID: M3                                                                 
+Station (mark)    1        -3033083.360         5052998.783         2431123.753
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : FC170106.asc                                              
+Station ID: FC17A                                                             
+Station (mark)    2        -3033183.099         5052685.996         2431649.018
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -99.6207           -312.8270            525.2543
+row   1   .2287262538000D-04                                                   
+row   2  -.1498531112000D-04   .1368228544000D-04                              
+row   3  -.9849055170000D-05   .7048985370000D-05   .1041048575000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.06                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .013846(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00012                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : M3  0106.asc                                              
+Station ID: M3                                                                 
+Station (mark)    1        -3033083.360         5052998.783         2431123.753
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : G2  0106.asc                                              
+Station ID: G2                                                                 
+Station (mark)    2        -3033086.227         5052882.626         2431359.003
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             -2.1793           -115.7609            235.1758
+row   1   .1541373640000D-04                                                   
+row   2  -.9136443090000D-05   .9434994630000D-05                              
+row   3  -.5019342980000D-05   .4670501580000D-05   .7661523310000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.45                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .019007(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00013                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : M3  0106.asc                                              
+Station ID: M3                                                                 
+Station (mark)    2        -3033083.360         5052998.783         2431123.753
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             17.0190            146.4936           -283.4227
+row   1   .9352185440000D-05                                                   
+row   2  -.4237047830000D-05   .8822767990000D-05                              
+row   3  -.3448329300000D-05   .5099648940000D-05   .6700566270000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       4.77                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .008374(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00014                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : M3  0106.asc                                              
+Station ID: M3                                                                 
+Station (mark)    1        -3033083.360         5052998.783         2431123.753
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : KA090106.asc                                              
+Station ID: KA09                                                               
+Station (mark)    2        -3032503.919         5054211.675         2429110.611
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            579.4253           1212.8911          -2013.1517
+row   1   .7755428530000D-05                                                   
+row   2  -.4634491910000D-05   .5043586180000D-05                              
+row   3  -.2574666080000D-05   .2547383260000D-05   .3706478890000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.36                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .011862(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00015                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : M3  0106.asc                                              
+Station ID: M3                                                                 
+Station (mark)    1        -3033083.360         5052998.783         2431123.753
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : KA100106.asc                                              
+Station ID: KA10                                                               
+Station (mark)    2        -3032514.060         5054251.331         2429002.952
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            569.3353           1252.5285          -2120.8394
+row   1   .3305407776000D-04                                                   
+row   2  -.2484080687000D-04   .2535996262000D-04                              
+row   3  -.1877035203000D-04   .1729823938000D-04   .1897435222000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.11                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .018557(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00016                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT080106.asc                                              
+Station ID: PT08                                                               
+Station (mark)    2        -3032939.455         5053308.919         2430630.318
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            160.7086            456.7673           -776.8121
+row   1   .4055799650000D-05                                                   
+row   2  -.2458953770000D-05   .2749467740000D-05                              
+row   3  -.2128196140000D-05   .1733938310000D-05   .1675269840000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)      11.33                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .006201(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00017                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : B6  0106.asc                                              
+Station ID: B6                                                                 
+Station (mark)    1        -3033037.403         5053337.510         2430437.968
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1 0106.asc                                              
+Station ID: PT1                                                                
+Station (mark)    2        -3033062.673         5053045.863         2431048.644
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -25.2636           -291.6407            610.7225
+row   1   .7626532420000D-05                                                   
+row   2  -.4668885550000D-05   .7904042440000D-05                              
+row   3  -.4584385000000D-07   .1195338440000D-05   .2429290740000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.05                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .017676(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00018                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT1 0106.asc                                              
+Station ID: PT1                                                                
+Station (mark)    1        -3033062.673         5053045.863         2431048.644
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : G9  0106.asc                                              
+Station ID: G9                                                                 
+Station (mark)    2        -3033026.671         5053139.902         2430876.295
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             35.9996             94.0403           -172.3912
+row   1   .3635806769000D-04                                                   
+row   2  -.2329150054000D-04   .2686451102000D-04                              
+row   3  -.7009681820000D-05   .6477045730000D-05   .8657356570000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       1.81                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .028623(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00019                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+$EDIT
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1 0106.asc                                              
+Station ID: PT1                                                                
+Station (mark)    2        -3033062.673         5053045.863         2431048.644
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             37.4823            193.7315           -358.4966
+row   1   .2663203700000D-05                                                   
+row   2  -.1527674900000D-05   .2684495080000D-05                              
+row   3  -.1287714100000D-06   .4183473200000D-06   .8084559600000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.50                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .010957(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00020                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : B6  0106.asc                                              
+Station ID: B6                                                                 
+Station (mark)    1        -3033037.403         5053337.510         2430437.968
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    2        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             60.8202            432.4189           -907.5425
+row   1   .2513150200000D-05                                                   
+row   2  -.1488583480000D-05   .2869028260000D-05                              
+row   3   .2458281000000D-07   .4517664700000D-06   .1031039530000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.53                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .010857(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00021                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    1        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : FC170106.asc                                              
+Station ID: FC17A                                                             
+Station (mark)    2        -3033183.099         5052685.996         2431649.018
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1           -206.2143          -1084.1044           2118.5932
+row   1   .3028859233000D-04                                                   
+row   2  -.2073103479000D-04   .2032989517000D-04                              
+row   3  -.1092995340000D-04   .8589476540000D-05   .1298667640000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.16                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .012329(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00022                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    1        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : G2  0106.asc                                              
+Station ID: G2                                                                 
+Station (mark)    2        -3033086.227         5052882.626         2431359.003
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1           -108.6990           -887.0665           1828.5145
+row   1   .4013337240000D-04                                                   
+row   2  -.2616410204000D-04   .2499117395000D-04                              
+row   3  -.1471042491000D-04   .1383375505000D-04   .1864542591000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.53                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .023100(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00023                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    1        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : G9  0106.asc                                              
+Station ID: G9                                                                 
+Station (mark)    2        -3033026.671         5053139.902         2430876.295
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -50.0853           -630.0388           1345.8592
+row   1   .3889780879000D-04                                                   
+row   2  -.2492520674000D-04   .2823971937000D-04                              
+row   3  -.7501280380000D-05   .6309731410000D-05   .9853752520000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.02                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .024672(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00024                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    2        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            123.5681            917.7968          -1876.7563
+row   1   .9068737000000D-06                                                   
+row   2  -.4296956800000D-06   .9263190400000D-06                              
+row   3  -.2914742000000D-07   .1520097100000D-06   .3680743300000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)      16.00                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .007232(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00025                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    1        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : H1  0106.asc                                              
+Station ID: H1                                                                 
+Station (mark)    2        -3033079.788         5052802.111         2431538.094
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1           -103.1593           -967.8360           2007.7206
+row   1   .7532913376000D-04                                                   
+row   2  -.4794596200000D-04   .4255715588000D-04                              
+row   3  -.3685533676000D-04   .2960180738000D-04   .4211077824000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.51                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .028502(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00026                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    1        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : KA090106.asc                                              
+Station ID: KA09                                                               
+Station (mark)    2        -3032503.919         5054211.675         2429110.611
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            472.8936            441.5810           -419.8167
+row   1   .3348587640000D-05                                                   
+row   2  -.1830333500000D-05   .2332145580000D-05                              
+row   3  -.8002099300000D-06   .9919265800000D-06   .1845518010000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.03                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .009881(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00027                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    1        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : KA100106.asc                                              
+Station ID: KA10                                                               
+Station (mark)    2        -3032514.060         5054251.331         2429002.952
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            462.7817            481.2149           -527.5014
+row   1   .1006199744000D-04                                                   
+row   2  -.6899074520000D-05   .7744489400000D-05                              
+row   3  -.5088765400000D-05   .4793267900000D-05   .5944254690000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.58                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .014027(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00028                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    1        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : M3  0106.asc                                              
+Station ID: M3                                                                 
+Station (mark)    2        -3033083.360         5052998.783         2431123.753
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1           -106.5381           -771.3011           1593.3393
+row   1   .2570328910000D-05                                                   
+row   2  -.1374884220000D-05   .2232703140000D-05                              
+row   3  -.9763708700000D-06   .1175545150000D-05   .2052475030000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.11                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .010657(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00029                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    1        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1 0106.asc                                              
+Station ID: PT1                                                                
+Station (mark)    2        -3033062.673         5053045.863         2431048.644
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -86.0900           -724.0592           1518.2594
+row   1   .3463909110000D-05                                                   
+row   2  -.1882584790000D-05   .3488467080000D-05                              
+row   3  -.1086723300000D-06   .5219156600000D-06   .1223280620000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       5.49                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .013699(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00030                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : B6  0106.asc                                              
+Station ID: B6                                                                 
+Station (mark)    1        -3033037.403         5053337.510         2430437.968
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    2        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             22.4165           -242.0796            566.5805
+row   1   .5213463130000D-05                                                   
+row   2  -.3552877490000D-05   .5969500640000D-05                              
+row   3  -.2189596300000D-06   .9713192000000D-06   .1549243570000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.00                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .013065(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00031                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    1        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : G9  0106.asc                                              
+Station ID: G9                                                                 
+Station (mark)    2        -3033026.671         5053139.902         2430876.295
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -11.6635             44.4556           -128.2534
+row   1   .1007242290800D-03                                                   
+row   2  -.6893164089000D-04   .7905459647000D-04                              
+row   3  -.2107326531000D-04   .1965142252000D-04   .2068110537000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       1.80                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .043694(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00032                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    2        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             85.1666            243.2951           -402.6359
+row   1   .1263747590000D-05                                                   
+row   2  -.7020020200000D-06   .1408857440000D-05                              
+row   3  -.1427067800000D-06   .3029690100000D-06   .4422852300000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       5.08                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .008668(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00033                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    1        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : H1  0106.asc                                              
+Station ID: H1                                                                 
+Station (mark)    2        -3033079.788         5052802.111         2431538.094
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -64.7159           -293.3866            533.6035
+row   1   .7867448583000D-04                                                   
+row   2  -.4940348975000D-04   .4392989971000D-04                              
+row   3  -.3821962954000D-04   .3068293973000D-04   .4130323939000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.53                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .029026(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00034                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    1        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : KA090106.asc                                              
+Station ID: KA09                                                               
+Station (mark)    2        -3032503.919         5054211.675         2429110.611
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            511.2767           1116.0847          -1893.9458
+row   1   .1026329025000D-04                                                   
+row   2  -.5641284360000D-05   .6110741620000D-05                              
+row   3  -.2467712280000D-05   .2743367930000D-05   .4499569360000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.04                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .015084(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00035                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+$EDIT
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    1        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : M3  0106.asc                                              
+Station ID: M3                                                                 
+Station (mark)    2        -3033083.360         5052998.783         2431123.753
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -68.1487            -96.8098            119.2028
+row   1   .3780136760000D-05                                                   
+row   2  -.2063907290000D-05   .3119971510000D-05                              
+row   3  -.1321474650000D-05   .1674977250000D-05   .2846380560000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.51                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .014057(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00036                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    1        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1 0106.asc                                              
+Station ID: PT1                                                                
+Station (mark)    2        -3033062.673         5053045.863         2431048.644
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -47.6902            -49.5598             44.1395
+row   1   .2414446030000D-05                                                   
+row   2  -.1490039290000D-05   .2690292800000D-05                              
+row   3  -.2578977100000D-06   .5308713900000D-06   .7304314200000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       3.18                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .012618(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00037                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    1        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    2        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             38.4039            674.5015          -1474.1172
+row   1   .1608244360000D-05                                                   
+row   2  -.7059860600000D-06   .1704648640000D-05                              
+row   3  -.9425754000000D-07   .3145403500000D-06   .7728151100000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.53                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .011775(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00038                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT2 0106.asc                                              
+Station ID: PT2                                                                
+Station (mark)    2        -3033042.519         5053066.590         2431030.973
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             57.6421            214.4488           -376.1708
+row   1   .1457483987000D-04                                                   
+row   2  -.1017429674000D-04   .1103076389000D-04                              
+row   3   .7855477200000D-06   .3986164000000D-06   .1567367720000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.12                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .014255(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00039                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT2 0106.asc                                              
+Station ID: PT2                                                                
+Station (mark)    1        -3033042.519         5053066.590         2431030.973
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1 0106.asc                                              
+Station ID: PT1                                                                
+Station (mark)    2        -3033062.673         5053045.863         2431048.644
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -20.1372            -20.7305             17.6768
+row   1   .1193445216000D-04                                                   
+row   2  -.8440950820000D-05   .9880338600000D-05                              
+row   3   .7389029000000D-06   .3883529400000D-06   .1478988080000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.52                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .015850(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00040                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT2 0106.asc                                              
+Station ID: PT2                                                                
+Station (mark)    1        -3033042.519         5053066.590         2431030.973
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    2        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             65.9467            703.3282          -1500.5798
+row   1   .1480299711000D-04                                                   
+row   2  -.1029117506000D-04   .1190916341000D-04                              
+row   3   .1132138270000D-05   .3429010900000D-06   .1978647140000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.97                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .016120(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00041                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT2 0106.asc                                              
+Station ID: PT2                                                                
+Station (mark)    1        -3033042.519         5053066.590         2431030.973
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    2        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             27.5208             28.8509            -26.4675
+row   1   .1188795835000D-04                                                   
+row   2  -.7984503040000D-05   .8944826580000D-05                              
+row   3   .9999952500000D-06   .3170469000000D-06   .1569657490000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.28                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .015337(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00042                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : FC170106.asc                                              
+Station ID: FC17A                                                             
+Station (mark)    1        -3033183.099         5052685.996         2431649.018
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT4 0106.asc                                              
+Station ID: PT4                                                                
+Station (mark)    2        -3032964.662         5053826.816         2429410.316
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            218.2887           1140.8832          -2238.6893
+row   1   .1351213445000D-04                                                   
+row   2  -.7904952230000D-05   .8214062670000D-05                              
+row   3  -.3674672910000D-05   .2081829970000D-05   .5820320500000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.58                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .012602(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00043                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT4 0106.asc                                              
+Station ID: PT4                                                                
+Station (mark)    1        -3032964.662         5053826.816         2429410.316
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : G2  0106.asc                                              
+Station ID: G2                                                                 
+Station (mark)    2        -3033086.227         5052882.626         2431359.003
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1           -120.8036           -943.8578           1948.6032
+row   1   .2285364934000D-04                                                   
+row   2  -.1362324246000D-04   .1307414253000D-04                              
+row   3  -.7872633660000D-05   .6720467780000D-05   .1044651618000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.51                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .020549(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00044                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT4 0106.asc                                              
+Station ID: PT4                                                                
+Station (mark)    2        -3032964.662         5053826.816         2429410.316
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            135.6383            974.5741          -1996.8628
+row   1   .3303555230000D-05                                                   
+row   2  -.1833515100000D-05   .3210966000000D-05                              
+row   3  -.1544893670000D-05   .1971668710000D-05   .2138330050000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       7.87                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .008005(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00045                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT4 0106.asc                                              
+Station ID: PT4                                                                
+Station (mark)    1        -3032964.662         5053826.816         2429410.316
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : H1  0106.asc                                              
+Station ID: H1                                                                 
+Station (mark)    2        -3033079.788         5052802.111         2431538.094
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1           -115.2565          -1024.6067           2127.8219
+row   1   .7454803673000D-04                                                   
+row   2  -.4399568914000D-04   .3879157310000D-04                              
+row   3  -.3498063194000D-04   .2615471298000D-04   .4017144768000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.03                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .032155(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00046                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT4 0106.asc                                              
+Station ID: PT4                                                                
+Station (mark)    1        -3032964.662         5053826.816         2429410.316
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : KA090106.asc                                              
+Station ID: KA09                                                               
+Station (mark)    2        -3032503.919         5054211.675         2429110.611
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            460.8172            384.8023           -299.7173
+row   1   .6607304920000D-05                                                   
+row   2  -.4130685460000D-05   .4093341180000D-05                              
+row   3  -.2594709850000D-05   .2338111890000D-05   .3037890880000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.55                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .009437(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00047                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT4 0106.asc                                              
+Station ID: PT4                                                                
+Station (mark)    1        -3032964.662         5053826.816         2429410.316
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : KA100106.asc                                              
+Station ID: KA10                                                               
+Station (mark)    2        -3032514.060         5054251.331         2429002.952
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            450.6977            424.4384           -407.3983
+row   1   .1108861734000D-04                                                   
+row   2  -.7538368860000D-05   .7871185730000D-05                              
+row   3  -.5474277920000D-05   .4902998510000D-05   .5771126660000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.02                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .013292(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00048                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT4 0106.asc                                              
+Station ID: PT4                                                                
+Station (mark)    1        -3032964.662         5053826.816         2429410.316
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : M3  0106.asc                                              
+Station ID: M3                                                                 
+Station (mark)    2        -3033083.360         5052998.783         2431123.753
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1           -118.6173           -828.0864           1713.4403
+row   1   .4364769740000D-05                                                   
+row   2  -.2493767900000D-05   .3040732500000D-05                              
+row   3  -.1962165940000D-05   .1855862630000D-05   .2770822550000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.74                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .011169(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00049                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT4 0106.asc                                              
+Station ID: PT4                                                                
+Station (mark)    1        -3032964.662         5053826.816         2429410.316
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    2        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -12.0640            -56.7780            120.1059
+row   1   .8059290700000D-06                                                   
+row   2  -.4323646400000D-06   .6401889700000D-06                              
+row   3  -.3881843400000D-06   .3928550400000D-06   .5593184300000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       4.67                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .005422(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00050                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT4 0106.asc                                              
+Station ID: PT4                                                                
+Station (mark)    1        -3032964.662         5053826.816         2429410.316
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    2        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -50.4623           -731.2800           1594.2295
+row   1   .5934569410000D-05                                                   
+row   2  -.3453836730000D-05   .4198693380000D-05                              
+row   3  -.2533661420000D-05   .2473461170000D-05   .3322042360000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.51                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .012797(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00051                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : B6  0106.asc                                              
+Station ID: B6                                                                 
+Station (mark)    1        -3033037.403         5053337.510         2430437.968
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT5 0106.asc                                              
+Station ID: PT5                                                                
+Station (mark)    2        -3032961.689         5053574.759         2429978.932
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             75.7276            237.2491           -458.9894
+row   1   .1889137280000D-05                                                   
+row   2  -.8918941600000D-06   .1743458010000D-05                              
+row   3   .3673291100000D-06   .2436931100000D-06   .9588227000000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.00                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .007592(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00052                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT5 0106.asc                                              
+Station ID: PT5                                                                
+Station (mark)    1        -3032961.689         5053574.759         2429978.932
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : G9  0106.asc                                              
+Station ID: G9                                                                 
+Station (mark)    2        -3033026.671         5053139.902         2430876.295
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -65.0531           -434.8336            897.4444
+row   1   .8216264430000D-04                                                   
+row   2  -.3313486382000D-04   .3442447808000D-04                              
+row   3  -.2169160261000D-04   .1007974588000D-04   .5346680967000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.03                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .025179(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00053                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT5 0106.asc                                              
+Station ID: PT5                                                                
+Station (mark)    2        -3032961.689         5053574.759         2429978.932
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            138.4754            722.6172          -1428.2103
+row   1   .1698694190000D-05                                                   
+row   2  -.8199025200000D-06   .1445046490000D-05                              
+row   3   .2069491100000D-06   .1230225800000D-06   .4977879100000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)      14.57                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .006327(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00054                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT5 0106.asc                                              
+Station ID: PT5                                                                
+Station (mark)    1        -3032961.689         5053574.759         2429978.932
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1 0106.asc                                              
+Station ID: PT1                                                                
+Station (mark)    2        -3033062.673         5053045.863         2431048.644
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1           -100.9810           -528.8972           1069.7142
+row   1   .3036664740000D-05                                                   
+row   2  -.1426661310000D-05   .2508280670000D-05                              
+row   3   .4511167500000D-06   .1967272100000D-06   .9642170800000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       4.82                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .009255(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00055                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT5 0106.asc                                              
+Station ID: PT5                                                                
+Station (mark)    1        -3032961.689         5053574.759         2429978.932
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    2        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -14.9050            195.1822           -448.5408
+row   1   .8931668400000D-06                                                   
+row   2  -.3955041600000D-06   .7951413200000D-06                              
+row   3   .1289377600000D-06   .8018299000000D-07   .3322783100000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)      78.37                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .005657(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00056                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT5 0106.asc                                              
+Station ID: PT5                                                                
+Station (mark)    1        -3032961.689         5053574.759         2429978.932
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    2        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -53.3055           -479.3229           1025.5759
+row   1   .3674468070000D-05                                                   
+row   2  -.1953127940000D-05   .3623969370000D-05                              
+row   3   .4652072900000D-06   .3176154500000D-06   .1120736790000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)      34.15                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .009932(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00057                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT5 0106.asc                                              
+Station ID: PT5                                                                
+Station (mark)    1        -3032961.689         5053574.759         2429978.932
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT2 0106.asc                                              
+Station ID: PT2                                                                
+Station (mark)    2        -3033042.519         5053066.590         2431030.973
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -80.8218           -508.1730           1052.0552
+row   1   .1364584525000D-04                                                   
+row   2  -.1061827042000D-04   .1144825213000D-04                              
+row   3   .2199496260000D-05  -.1100602090000D-05   .1407620740000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       6.46                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .009542(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00058                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : B6  0106.asc                                              
+Station ID: B6                                                                 
+Station (mark)    1        -3033037.403         5053337.510         2430437.968
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT6 0106.asc                                              
+Station ID: PT6                                                                
+Station (mark)    2        -3032976.864         5053664.812         2429757.253
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             60.5514            327.2969           -680.6608
+row   1   .1640974600000D-05                                                   
+row   2  -.6811656300000D-06   .1707759750000D-05                              
+row   3   .4171540000000D-06   .3457118600000D-06   .1153024580000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.58                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .007496(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00059                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT6 0106.asc                                              
+Station ID: PT6                                                                
+Station (mark)    1        -3032976.864         5053664.812         2429757.253
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : G9  0106.asc                                              
+Station ID: G9                                                                 
+Station (mark)    2        -3033026.671         5053139.902         2430876.295
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -49.8042           -524.9022           1119.0353
+row   1   .4420553414000D-04                                                   
+row   2  -.1996935347000D-04   .2597889416000D-04                              
+row   3   .3190802170000D-05   .4960509660000D-05   .2605709502000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       1.87                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .020211(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00060                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT6 0106.asc                                              
+Station ID: PT6                                                                
+Station (mark)    2        -3032976.864         5053664.812         2429757.253
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            123.3025            812.6662          -1649.8827
+row   1   .1782873150000D-05                                                   
+row   2  -.7825954500000D-06   .1463396190000D-05                              
+row   3   .3100260300000D-06   .1259455800000D-06   .6063796500000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)      22.47                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .006594(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00061                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT6 0106.asc                                              
+Station ID: PT6                                                                
+Station (mark)    1        -3032976.864         5053664.812         2429757.253
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1 0106.asc                                              
+Station ID: PT1                                                                
+Station (mark)    2        -3033062.673         5053045.863         2431048.644
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -85.8091           -618.9454           1291.3845
+row   1   .3356815610000D-05                                                   
+row   2  -.1408100600000D-05   .2573735700000D-05                              
+row   3   .6012152700000D-06   .2068741600000D-06   .1266150550000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)      10.76                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .008817(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00062                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT6 0106.asc                                              
+Station ID: PT6                                                                
+Station (mark)    1        -3032976.864         5053664.812         2429757.253
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    2        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1               .2699            105.1325           -226.8682
+row   1   .9648320600000D-06                                                   
+row   2  -.3876474700000D-06   .9214308400000D-06                              
+row   3   .1925847800000D-06   .1195018800000D-06   .4877900200000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       9.27                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .005422(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00063                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT6 0106.asc                                              
+Station ID: PT6                                                                
+Station (mark)    1        -3032976.864         5053664.812         2429757.253
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    2        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -38.1326           -569.3717           1247.2483
+row   1   .4494052550000D-05                                                   
+row   2  -.2235028700000D-05   .4413681750000D-05                              
+row   3   .8050012600000D-06   .3743050800000D-06   .1640595130000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       6.28                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .010367(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00064                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT6 0106.asc                                              
+Station ID: PT6                                                                
+Station (mark)    1        -3032976.864         5053664.812         2429757.253
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT2 0106.asc                                              
+Station ID: PT2                                                                
+Station (mark)    2        -3033042.519         5053066.590         2431030.973
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            -65.6559           -598.2205           1273.7170
+row   1   .2340180117000D-04                                                   
+row   2  -.1761968732000D-04   .1762171119000D-04                              
+row   3   .5416673400000D-05  -.3200004940000D-05   .2932167170000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.53                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .009864(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00065                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+$EDIT
+input data file  1 : PT6 0106.asc                                              
+Station ID: PT6                                                                
+Station (mark)    1        -3032976.864         5053664.812         2429757.253
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT5 0106.asc                                              
+Station ID: PT5                                                                
+Station (mark)    2        -3032961.689         5053574.759         2429978.932
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             15.1738            -90.0493            221.6720
+row   1   .1033720850000D-05                                                   
+row   2  -.4182959400000D-06   .8928512900000D-06                              
+row   3   .2005539800000D-06   .9515429000000D-07   .4360231700000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)      18.19                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .005274(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00066                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT7 0106.asc                                              
+Station ID: PT7                                                                
+Station (mark)    2        -3032993.758         5053324.197         2430523.161
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            106.4049            472.0595           -883.9773
+row   1   .3275190110000D-05                                                   
+row   2  -.1860684690000D-05   .2517635390000D-05                              
+row   3  -.1565994180000D-05   .1311144300000D-05   .1392406650000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)      10.15                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .007497(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00067                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+$EDIT
+input data file  1 : PT7 0106.asc                                              
+Station ID: PT7                                                                
+Station (mark)    1        -3032993.758         5053324.197         2430523.161
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT080106.asc                                              
+Station ID: PT08                                                               
+Station (mark)    2        -3032939.455         5053308.919         2430630.318
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             54.3042            -15.2872            107.1598
+row   1   .2309515860000D-05                                                   
+row   2  -.7266531100000D-06   .1474472390000D-05                              
+row   3  -.7716586500000D-06   .6964549900000D-06   .1184815500000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       7.53                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .009554(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00068                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : H1-20106.asc                                              
+Station ID: H1-2                                                               
+Station (mark)    1        -3033100.165         5052852.145         2431407.139
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT9 0106.asc                                              
+Station ID: PT9                                                                
+Station (mark)    2        -3033036.428         5053193.073         2430751.394
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             63.7400            340.9295           -655.7443
+row   1   .2273509180000D-05                                                   
+row   2  -.1837770140000D-05   .2523286590000D-05                              
+row   3  -.4024516800000D-06   .3474650200000D-06   .5518845800000D-06         
+ Ratio sum-of-squares(2) to sum-of-squares(1)      10.29                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .006901(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00069                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : PT9 0106.asc                                              
+Station ID: PT9                                                                
+Station (mark)    1        -3033036.428         5053193.073         2430751.394
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT7 0106.asc                                              
+Station ID: PT7                                                                
+Station (mark)    2        -3032993.758         5053324.197         2430523.161
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             42.6695            131.1231           -228.2308
+row   1   .1282141322000D-04                                                   
+row   2  -.8064936760000D-05   .1035302706000D-04                              
+row   3  -.4348679790000D-05   .2335855630000D-05   .3991557820000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.50                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .006535(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00070                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+$EDIT
+input data file  1 : FC170106.asc                                              
+Station ID: FC17A
+Station (mark)    1        -3033183.099         5052685.996         2431649.018
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : S5  0106.asc                                              
+Station ID: S5                                                                 
+Station (mark)    2        -3033084.751         5052938.245         2431238.880
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             98.2075            252.3124           -410.1396
+row   1   .6416188405000D-04                                                   
+row   2  -.4152787325000D-04   .5074560741000D-04                              
+row   3  -.1018728473000D-04   .5936036500000D-06   .1829615136000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       1.80                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .036786(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00071                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : S5  0106.asc                                              
+Station ID: S5                                                                 
+Station (mark)    1        -3033084.751         5052938.245         2431238.880
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : KA090106.asc                                              
+Station ID: KA09                                                               
+Station (mark)    2        -3032503.919         5054211.675         2429110.611
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            580.8340           1273.4322          -2128.2689
+row   1   .1530009350000D-04                                                   
+row   2  -.9530306230000D-05   .9906030350000D-05                              
+row   3  -.5729451390000D-05   .5275721430000D-05   .7399817070000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.71                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .014930(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00072                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : S5  0106.asc                                              
+Station ID: S5                                                                 
+Station (mark)    1        -3033084.751         5052938.245         2431238.880
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : KA100106.asc                                              
+Station ID: KA10                                                               
+Station (mark)    2        -3032514.060         5054251.331         2429002.952
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            570.7000           1313.0881          -2235.9205
+row   1   .9594391423000D-04                                                   
+row   2  -.7068514530000D-04   .6862723672000D-04                              
+row   3  -.5629098066000D-04   .5063273243000D-04   .5799217521000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.00                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .029786(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00073                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : S5  0106.asc                                              
+Station ID: S5                                                                 
+Station (mark)    1        -3033084.751         5052938.245         2431238.880
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : M3  0106.asc                                              
+Station ID: M3                                                                 
+Station (mark)    2        -3033083.360         5052998.783         2431123.753
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1              1.3987             60.5407           -115.1215
+row   1   .3971910782000D-04                                                   
+row   2  -.2384796283000D-04   .2570450984000D-04                              
+row   3  -.1472662745000D-04   .1342200124000D-04   .2016924199000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       1.93                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .039105(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00074                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : S5  0106.asc                                              
+Station ID: S5                                                                 
+Station (mark)    1        -3033084.751         5052938.245         2431238.880
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT130106.asc                                              
+Station ID: PT13                                                               
+Station (mark)    2        -3032976.808         5053770.109         2429530.433
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            107.9443            831.8638          -1708.4436
+row   1   .6785403360000D-05                                                   
+row   2  -.3944792790000D-05   .4157598820000D-05                              
+row   3  -.2270193090000D-05   .2162544870000D-05   .3312396730000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.50                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .011114(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00075                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+$EDIT
+input data file  1 : S5  0106.asc                                              
+Station ID: S5                                                                 
+Station (mark)    1        -3033084.751         5052938.245         2431238.880
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT1A0106.asc                                              
+Station ID: PT1A                                                               
+Station (mark)    2        -3033015.200         5053095.586         2431004.545
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1             69.5564            157.3421           -234.3303
+row   1   .1450173196000D-04                                                   
+row   2  -.8136118930000D-05   .7868275370000D-05                              
+row   3  -.4341756330000D-05   .4101416920000D-05   .6187428170000D-05         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.59                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .016849(m)       
+#EOFSUM                                                                        
+Ashtech           LINECOMP        Version: 5.1.00                              
+E:\CMF\0106M_____-00076                                                        
+Date when the file was created  7/21/1995 15:15:42   Size     4372 Bytes       
+$glweight   1.000000000000                                                     
+input data file  1 : S5  0106.asc                                              
+Station ID: S5                                                                 
+Station (mark)    1        -3033084.751         5052938.245         2431238.880
+Receiver serial # = aCJY CJY CJY                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+input data file  1 : PT4 0106.asc                                              
+Station ID: PT4                                                                
+Station (mark)    2        -3032964.662         5053826.816         2429410.316
+Receiver serial # = aSCJ SCJ SCJ                                               
+antenna height(m)      .000                                                    
+Atm meas p(mb) t(C) rh(%)   1010.0     20.0     50.0                           
+Group Header Record and Data Media Identifier follows                          
+B21-JL-5 020621-JL-5 0318 1LINECOMP1.00   BROAD     2                0 0 5     
+a339JA                                                                         
+Vector   2 <---   1            120.0961            888.5734          -1828.5573
+row   1   .2781531994000D-04                                                   
+row   2  -.1585361508000D-04   .1508431905000D-04                              
+row   3  -.7410869640000D-05   .6974304130000D-05   .1130084147000D-04         
+ Ratio sum-of-squares(2) to sum-of-squares(1)       2.55                       
+Epoch interval (seconds):  5.000000                                            
+Measure of geometry: 0.005084     Wavelength = 0.190294 (m/cycle)              
+num_meas =  1200        num_used =  1200         rms_resid =  .022035(m)       
+#EOFSUM                                                                        

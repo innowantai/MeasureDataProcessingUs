@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D06F0D57-9615-4EAA-8169-D971EA03A88F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_0_WriteCodeUse</RootNamespace>
+    <AssemblyName>0_WriteCodeUse</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ExcelClass\ExcelClass\ExcelClass.csproj">
+      <Project>{10ab60cb-e95c-4b7f-82b8-11305097641f}</Project>
+      <Name>ExcelClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GPS_RES\GPS_RES\GPS_RES.csproj">
+      <Project>{a41fa600-a391-49b1-a3f9-f1ebc538bc85}</Project>
+      <Name>GPS_RES</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GPS_SORT\GPS_SORT\GPS_SORT.csproj">
+      <Project>{a23c375f-0fbc-42df-92c9-e09857c3c23e}</Project>
+      <Name>GPS_SORT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GPS_SUM\GPS_SUM\GPS_SUM.csproj">
+      <Project>{c8004e06-43b8-4cae-b82c-a35baf640e9f}</Project>
+      <Name>GPS_SUM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\OBDAT\OBDAT\OBDAT.csproj">
+      <Project>{ed70a4f9-395a-4820-9600-bdb87d6f361e}</Project>
+      <Name>OBDAT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TheCmpExcelData\TheCmpExcelData\TheCmpExcelData.csproj">
+      <Project>{53bcbc5b-778d-4a36-878f-284838af73a7}</Project>
+      <Name>TheCmpExcelData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TheGSI\TheGSI\TheGSI.csproj">
+      <Project>{b835d08d-cdc1-49e6-adcf-98f54642fc1f}</Project>
+      <Name>TheGSI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TheNIKONtoAGA\TheNIKONtoAGA\TheNIKONtoAGA.csproj">
+      <Project>{a8cc3a2b-0ca2-4e3a-b6bb-435ffef1bfb0}</Project>
+      <Name>TheNIKONtoAGA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TheZTStoAGA\TheZTStoAGA\TheZTStoAGA.csproj">
+      <Project>{130123a8-1edd-4dff-bb26-d41a90198324}</Project>
+      <Name>TheZTStoAGA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
