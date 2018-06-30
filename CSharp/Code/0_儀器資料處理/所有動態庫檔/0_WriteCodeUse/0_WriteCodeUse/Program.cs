@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Collections;
-
+// test candelete
 namespace _0_WriteCodeUse
 {
     public class Program
