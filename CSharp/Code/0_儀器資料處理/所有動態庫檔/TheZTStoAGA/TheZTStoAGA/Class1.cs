@@ -95,15 +95,19 @@ namespace TheZTStoAGA
             int kk = 0;
             bool open = false;
             string nowTime = DateTime.Now.ToString("yyyy-MM-dd");   //使用資料處理當時的時間當作時間格式
+            string StationName = "";
             foreach (string ff in data)
             {
                 //// If ff (another said the row of data) is block, Ignore it or take off head text 
                 string index1 = ff.IndexOf(" ") == -1 ? ff : index1 = ff.Substring(ff.IndexOf(" "), ff.Length - ff.IndexOf(" ")).Trim();
                 string[] index2 = index1.Split(',');
 
+                if (ff.Contains("JOB "))
+                    StationName = ff.Substring(ff.IndexOf("JOB") + 3, ff.Length - ff.IndexOf("JOB") - 7).Trim();
+
                 if (ff.Contains("STA  "))
                 {
-                    dataSet[kk, 0] = "50=" + fileName.Replace(".txt", "");
+                    dataSet[kk, 0] = "50=" + StationName;
                     dataSet[kk, 1] = "51=" + nowTime;
                     dataSet[kk, 2] = "2=" + index2[0];
                     dataSet[kk, 3] = "3=" + index2[1];

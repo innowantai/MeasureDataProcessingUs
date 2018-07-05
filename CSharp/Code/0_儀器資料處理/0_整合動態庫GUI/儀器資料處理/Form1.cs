@@ -211,6 +211,10 @@ namespace 儀器資料處理
             {
                 txtOutput.Text = "DAT誤差設置(m) : " + obError;
             }
+            else if(listImplement.GetSelected(2) && listMethod.GetSelected(1))
+            {
+                txtOutput.Text = "先執行完'RES程式'產生excel檔後再執行此程式";
+            }
             else
             {
                 txtOutput.Text = "";

@@ -14,9 +14,9 @@ namespace _0_WriteCodeUse
         {
             
            // string savePath = Path.Combine(oriPath, "AllCase", "0.DAT");
-            string savePath = Path.Combine(oriPath, "AllCase", "3.GPSSORT");
+            string savePath = Path.Combine(oriPath, "AllCase", "6and7.TheNIKONtoAGA");
             string dataPath = savePath;
-            ArrayList files = GetFileName_sub(savePath, ".csv");
+            ArrayList files = GetFileName_sub(savePath, ".txt");
             string res = ""; 
 
             foreach (string ff in files)
@@ -24,7 +24,8 @@ namespace _0_WriteCodeUse
 
                 //res += OBDAT.OBDAT.OBMain_sub(oriPath, savePath, ff, "0.009");
                 //res += TheCmpExcelData.TheCmpExcelData.TheCmp_Main(savePath, savePath, ff);
-                res += GPS_SORT.GPSSORT.GPSSORT_Main(savePath, savePath, ff);
+                //res += GPS_SORT.GPSSORT.GPSSORT_Main(savePath, savePath, ff); 
+                res += TheZTStoAGA.TheZTStoAGA.TheZTStoAGA_Main(savePath, savePath, ff);
             }
 
             Console.WriteLine(res);
