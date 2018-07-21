@@ -5,6 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
+/// <summary>
+/// Parameters : 
+/// 50 : 檔名
+///  2 : 測站
+///  3 : 測站儀器高
+/// 62 : 後視點號
+///  6 : 後視儀器高
+/// 21 : 歸0角度
+///  5 : 觀測方向的點(前視)
+/// </summary>
+
 namespace TheJOBtoT01
 {
     public class TheJOBtoT01
