@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheNIKONtoAGA", "..\TheNIKO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheZTStoAGA", "..\TheZTStoAGA\TheZTStoAGA\TheZTStoAGA.csproj", "{130123A8-1EDD-4DFF-BB26-D41A90198324}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheJOBtoT01", "..\TheJOBtoT01\TheJOBtoT01\TheJOBtoT01.csproj", "{09657581-5337-4C73-B3F2-93BDD0AA88C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{130123A8-1EDD-4DFF-BB26-D41A90198324}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{130123A8-1EDD-4DFF-BB26-D41A90198324}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{130123A8-1EDD-4DFF-BB26-D41A90198324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09657581-5337-4C73-B3F2-93BDD0AA88C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09657581-5337-4C73-B3F2-93BDD0AA88C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09657581-5337-4C73-B3F2-93BDD0AA88C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09657581-5337-4C73-B3F2-93BDD0AA88C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

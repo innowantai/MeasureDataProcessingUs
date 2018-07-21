@@ -18,9 +18,9 @@ namespace 儀器資料處理
         public int selectIndex1 = 0;
         public int selectIndex2 = 0;
         public string obError = "";
-        public string[,] subName = new string[,] { { ".DAT", "", "", "" }, 
-                                                   { ".GSI", ".xls", ".txt", ".txt" }, 
-                                                   { ".RES", ".SUM", ".csv", "" } };
+        public string[,] subName = new string[,] { { ".DAT", "", "", "", "", "" }, 
+                                                   { ".GSI", ".xls", ".txt", ".txt", ".job", "" }, 
+                                                   { ".RES", ".SUM", ".csv", "", "", "" } };
 
         public 儀器資料處理()
         {
@@ -109,6 +109,10 @@ namespace 儀器資料處理
                 {
                     res = TheZTStoAGA.TheZTStoAGA.TheZTStoAGA_Main(savePath, savePath, fileName);
                 }
+                else if (listMethod.GetSelected(4))
+                {
+                    res = TheJOBtoT01.TheJOBtoT01.TheJOBtoT01_Main(savePath, savePath, fileName);
+                }
             }
             else if (listImplement.GetSelected(2))
             {
@@ -193,6 +197,7 @@ namespace 儀器資料處理
                 listMethod.Items.Add("CmpExcel");
                 listMethod.Items.Add("NIKONtoAGA");
                 listMethod.Items.Add("ZTStoAGA");
+                listMethod.Items.Add("JOBtoT01");
             }
             else if (listImplement.GetSelected(2))
             {

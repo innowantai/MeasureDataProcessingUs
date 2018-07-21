@@ -1,4 +1,4 @@
-C:\Users\Wantai\Desktop\MeasureFiles\Z_OK\0_儀器資料處理CSharp\Template\7_ZTStoAGA
+C:\Users\Wantai\Desktop\test
 1
-3
+4
 0.009
