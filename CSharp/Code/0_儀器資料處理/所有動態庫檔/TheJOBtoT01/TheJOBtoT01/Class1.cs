@@ -17,7 +17,7 @@ using System.IO;
 /// 程式流程 :
 /// 1.讀檔
 /// 2.將檔案轉成原始輸出格式transData
-/// 3.將transData每列之資料分割，依照Parameters位置填入陣列中，儲存至ArrayData
+/// 3.將transData每列之資料分割，依照Parameters位置填入陣列中，儲存至ArrayData中
 /// 4.將ArrayData轉換output格式，其中每行資料對齊，小數點也要對齊
 /// </summary>
 /// 
