@@ -1,0 +1,9 @@
+GPS o檔處理
+(1) 讀取excel檔之"GPS"sheet
+(2) 備註為檔名,尋找相同檔名之o檔,將所需資訊填入
+(3) 順便檢查接收儀序號是否相同，(REC #/TYPE/VERS)
+	- 填入 點號	   	  ->   MARKER NAME
+						   MARKER NUMBER
+		   天線高 	  ->   ANTENNA:DELTA H/E/N	
+(4) 建立"ARP","APC" sheet,將有填入之値放入
+	- 填入 天線盤型號 ->   ANT #/TYPE
