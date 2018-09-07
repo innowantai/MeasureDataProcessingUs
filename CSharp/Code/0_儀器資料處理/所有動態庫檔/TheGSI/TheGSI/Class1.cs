@@ -6,10 +6,20 @@ using System.IO;
 using System.Collections;
 /*
  2018-06-14 14:30
+
+ -- 儀器種類
+     初始程式碼為處理"TCRA1201"種類之儀器數據，其餘種類之儀器數據皆須前處理轉換至該之格式
+     1. TCRA1201
+     2. TC1101  :  (1) data倒數第五位增加小數點 
+                   (2) 84.. and 85.. 替換至 87.. and 88..
+                   (3) 正倒鏡位置交換
+
+ 
  程式概要 : 
  0.處理時會忽略有#符號之列數
  1.讀取GSI檔後將其多餘之0與..符號拿掉儲存較乾淨好閱讀之GSJ文件
- 2.將GSI各列資料所需資訊擷取儲存至tmpData(nx8)變數中,其8行所代表含意依序為 : 0 :[測站1,測點2,皆非-1], 1: 測站名稱, 2: 水平角, 3:垂直角, 4:斜距, 5:覘標高, 6:儀器高, 7:於原始檔GSI之列數 
+ 2.將GSI各列資料所需資訊擷取儲存至tmpData(nx8)變數中
+        其8行所代表含意依序為 :  0 :[測站1,測點2,皆非-1], 1: 測站名稱, 2: 水平角, 3:垂直角, 4:斜距, 5:覘標高, 6:儀器高, 7:於原始檔GSI之列數 
  3.判斷各測站資料長度是否相同,各測點資料長度是否相同
  4.依照tmpData之第0行資料判斷,將非測站與測點資料拿掉與測站後一行贅資料拿掉轉存至proData
  5.判斷測站與測點是否有重複，重複代表為同一測組之多測回結果，其測站可以忽略拿掉，將拿掉結果儲存至resData中並將測站資訊儲存至statInf中(nx3),其三行依序為 : 0:[測站於resData之列數位置], 2:[測站名稱], 3:[測站於原始檔GSI列數位置]
@@ -42,6 +52,13 @@ namespace TheGSI
             //// 讀檔
             ArrayList data = new ArrayList();
             Read(dataPath, fileName, ref data);
+
+            string ImplementName = (System.String)data[1];
+            if (ImplementName != "TCRA1201")
+            {
+                data = TransDataFormForTC1101(data); 
+            } 
+
             //// 將原始檔儲存至GSJ格式,拿掉不必要之符號,版面乾淨
             SaveToGSJ(savePath, fileName, data);
 
@@ -82,9 +99,67 @@ namespace TheGSI
             ExcelClass.ExcelSaveAndRead.Save(strPath: Path.Combine(savePath, indexSaveName), sheetNumber: 3, poRow: 2, poCol: 1, Data: excelData);
 
             outPutTxt += "處理完成\r\n";
+
             return outPutTxt;
         }
 
+        /// <summary>
+        /// 轉換儀器格式格式
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
+        private static ArrayList TransDataFormForTC1101(ArrayList data)
+        {
+
+            List<string> tmpData = new List<string>();
+            string res = "";
+            foreach (string ff in data)
+            {
+                string[] index = ff.Split(' ');
+                //// 增加小數點及更換title
+                for (int i = 0; i < index.Length; i++)
+                {
+                    string tmp = index[i];
+                    tmp = tmp.IndexOf("84..") != -1 ? tmp.Replace("84..", "88..") : tmp;
+                         //(tmp.IndexOf("85..") != -1 ? tmp.Replace("85..", "88..") : tmp);
+                    if (i != 0 & tmp.Trim() != "")
+                    {
+                        string tmp1 = tmp.Substring(0, tmp.Length - 5);
+                        string tmp2 = tmp.Substring(tmp.Length - 5, 5);
+                        index[i] = tmp1 + "." + tmp2;
+                    }
+                    res += index[i] + " ";
+                }
+                tmpData.Add(res);
+                res = "";
+            }
+
+            //// 正倒鏡點位互換
+            string[] transData = new string[tmpData.Count];
+            for (int i = 0; i < tmpData.Count; i++)
+            {
+                if (i % 6 == 4)
+                {
+                    transData[i] = tmpData[i];
+                    transData[i + 1] = tmpData[i + 3];
+                    transData[i + 2] = tmpData[i + 1];
+                    transData[i + 3] = tmpData[i + 2];
+                }
+                else if (i < 2 | i % 6 == 2 | i % 6 == 3)
+                {
+                    transData[i] = tmpData[i].Trim();
+                }
+            }
+
+            ArrayList resData = new ArrayList();
+            foreach (string ff in transData)
+            {
+                resData.Add(ff); 
+            }
+
+            return resData;
+
+        }
 
         /// <summary>
         /// 很單純-->讀全部的檔案
@@ -118,10 +193,10 @@ namespace TheGSI
                 int CASE = 0;
                 //// Col-1 : use to save StationName;
                 tmpData[kk, 1] = ff[0] == '*' ? takeOffnonMeanData(ff.Substring(ff.IndexOf("+"), ff.IndexOf(" ") - ff.IndexOf("+"))).Replace("+", "").Trim() : "-1";
-                //// This loop is to catch information and save into col-2~6, if exist save valur or save "-1";
+                //// This loop is to catch information and save into col-2~6, if exist save valur or save "-1"; 
                 foreach (string tmpStr in cName)
                 {
-                    string index = ff;
+                    string index = ff; 
                     string index2 = null;
                     int tmpPo = index.IndexOf(tmpStr);
                     bool check = tmpPo != -1 ? true : false;
@@ -135,10 +210,10 @@ namespace TheGSI
                     else
                     {
                         index2 = "-1";
-                    }
+                    } 
                     tmpData[kk, jj] = Convert.ToDouble(index2).ToString();
                     jj++;
-                }
+                } 
                 //// Col-0 : use to tag CASE(-1 1 2) 
                 tmpData[kk, 0] = CASE == 0 ? "-1" : (CASE == 1 ? "1" : "2");
                 //// Col-7 : use to record oriDataPosition
@@ -326,6 +401,7 @@ namespace TheGSI
                         kk++;
                     }
                 }
+              //errStr += tmpData[i, 0] + "\n";
             }
 
             if (kk == 0) { return errStr; }

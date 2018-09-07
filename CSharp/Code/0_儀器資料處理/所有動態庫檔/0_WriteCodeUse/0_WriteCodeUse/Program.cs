@@ -14,22 +14,22 @@ namespace _0_WriteCodeUse
         {
             
            // string savePath = Path.Combine(oriPath, "AllCase", "0.DAT");
-            string savePath = Path.Combine(oriPath, "AllCase", "8.TheJOBtoT01");
+            string savePath = Path.Combine(oriPath, "AllCase", "4.TheGSI");
             string dataPath = savePath;
 
 
 
 
-            ArrayList files = GetFileName_sub(savePath, ".JOB");
+            ArrayList files = GetFileName_sub(savePath, ".GSI");
             string res = ""; 
             foreach (string ff in files)
             {
-
+                res += TheGSI.TheGSI.TheGSI_Main(savePath, savePath, ff);
                 //res += OBDAT.OBDAT.OBMain_sub(oriPath, savePath, ff, "0.009");
                 //res += TheCmpExcelData.TheCmpExcelData.TheCmp_Main(savePath, savePath, ff);
                 //res += GPS_SORT.GPSSORT.GPSSORT_Main(savePath, savePath, ff); 
                 //res += TheZTStoAGA.TheZTStoAGA.TheZTStoAGA_Main(savePath, savePath, ff);
-                res += TheJOBtoT01.TheJOBtoT01.TheJOBtoT01_Main(savePath, savePath, ff); 
+                //res += TheJOBtoT01.TheJOBtoT01.TheJOBtoT01_Main(savePath, savePath, ff); 
             }
 
             Console.WriteLine(res);

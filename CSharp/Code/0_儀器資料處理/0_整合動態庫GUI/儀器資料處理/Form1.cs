@@ -220,6 +220,10 @@ namespace 儀器資料處理
             {
                 txtOutput.Text = "先執行完'RES程式'產生excel檔後再執行此程式";
             }
+            else if (listImplement.GetSelected(1) && listMethod.GetSelected(0))
+            {
+                txtOutput.Text = "目前支援處理檔案格式之儀器 : \r\n(1) TCRA1201 \r\n(2) TC1101";
+            }
             else
             {
                 txtOutput.Text = "";
