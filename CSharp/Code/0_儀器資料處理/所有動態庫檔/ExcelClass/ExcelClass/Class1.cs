@@ -208,9 +208,6 @@ namespace ExcelClass
 
 
 
-
-
-
         public static string[,] Read(string fullPath, int RowStartPo, int ColStartPo, int SheetNum)
         {
             string[] Engpo = new string[] { "", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
@@ -219,29 +216,94 @@ namespace ExcelClass
             object missing = System.Reflection.Missing.Value;
             Excel.Application excel = new Excel.Application();//lauch excel application 
             excel.Visible = false; excel.UserControl = true;
+            excel.DisplayAlerts = false;
             // 以只读的形式打开EXCEL文件  
-            Excel.Workbook wb = excel.Application.Workbooks.Open(fullPath, missing, true, missing, missing, missing,
-             missing, missing, missing, true, missing, missing, missing, missing, missing);
+            Excel.Workbook wb = excel.Application.Workbooks.Open(fullPath, missing, true, missing, missing, missing, missing, missing, missing, true, missing, missing, missing, missing, missing);
             //取得第 SheetNum 个工作薄  
-            Excel.Worksheet ws = (Excel.Worksheet)wb.Worksheets.get_Item(SheetNum);
+             
+
+            Excel.Worksheet ws = (Excel.Worksheet)wb.Worksheets.get_Item(SheetNum);  
+            string[,] newData = ReadGetData(ws, RowStartPo, ColStartPo, Engpo);
+             
+
+            excel.Quit();
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(excel);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(wb);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(ws);
+            GC.Collect();
+            return newData;
+        }
+
+
+
+        public static List<string[,]> Read(string fullPath, int RowStartPo, int ColStartPo, string SheetNumAll)
+        {
+            string[] Engpo = new string[] { "", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
+
+
+            object missing = System.Reflection.Missing.Value;
+            Excel.Application excel = new Excel.Application();//lauch excel application 
+            excel.Visible = false;
+            excel.UserControl = true;
+            excel.DisplayAlerts = false;
+            // 以只读的形式打开EXCEL文件  
+            Excel.Workbook wb = excel.Application.Workbooks.Open(fullPath, missing, true, missing, missing, missing, missing, missing, missing, true, missing, missing, missing, missing, missing);
+            //取得第 SheetNum 个工作薄  
+
+            
+
+            string[] sheets = SheetNumAll.IndexOf(",") != -1 ? SheetNumAll.Split(',') :
+                              (SheetNumAll.IndexOf("-") != -1 ? SheetNumAll.Split('-') : (new string[1] { SheetNumAll }));
+
+            List<string[,]> AllData = new List<string[,]>();
+            if (SheetNumAll.IndexOf("-") != -1)
+            {
+                for (int i = Int32.Parse(sheets[0]); i <= Int32.Parse(sheets[1]); i++)
+                {
+                    Excel.Worksheet ws = (Excel.Worksheet)wb.Worksheets.get_Item(i);
+                    string[,] newData = ReadGetData(ws, RowStartPo, ColStartPo, Engpo);
+                    AllData.Add(newData);
+                    System.Runtime.InteropServices.Marshal.ReleaseComObject(ws);
+                }
+            }
+            else
+            {
+                foreach (string ss in sheets)
+                {
+                    Excel.Worksheet ws = (Excel.Worksheet)wb.Worksheets.get_Item(Int32.Parse(ss));
+                    string[,] newData = ReadGetData(ws, RowStartPo, ColStartPo, Engpo);
+                    AllData.Add(newData);
+                } 
+            }
+             
+            excel.Quit();
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(excel);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(wb); 
+            GC.Collect();
+            return AllData;
+        }
+
+
+
+
+
+
+        private static string[,] ReadGetData(Excel.Worksheet ws, int RowStartPo , int ColStartPo, string[] Engpo)
+        {
             //取得总记录行数    (包括标题列)  
             int rowsint = ws.UsedRange.Cells.Rows.Count;            //得到列数    
-            int columnsint = ws.UsedRange.Cells.Columns.Count;      //得到行数    
-
+            int columnsint = ws.UsedRange.Cells.Columns.Count;      //得到行数   
             //計算初始位置
             int[] startPo = new int[] { Convert.ToInt32(ColStartPo / 26), ColStartPo % 26 };
             startPo[0] = startPo[1] == 0 ? startPo[0] - 1 : startPo[0];
             startPo[1] = startPo[1] == 0 ? 26 : startPo[1];
             string StartPo = Engpo[startPo[0]] + Engpo[startPo[1]] + RowStartPo.ToString();
-
             //計算結束位置
             columnsint = columnsint + ColStartPo - 1;
             int[] endPo = new int[] { Convert.ToInt32(columnsint / 26), columnsint % 26 };
             endPo[0] = endPo[1] == 0 ? endPo[0] - 1 : endPo[0];
             endPo[1] = endPo[1] == 0 ? 26 : endPo[1];
             string EndPo = Engpo[endPo[0]] + Engpo[endPo[1]] + (rowsint + RowStartPo - 1).ToString();
-
-
             //取的全部資料並儲存於arry1
             Excel.Range rng1 = ws.Cells.get_Range(StartPo, EndPo);
             object[,] arry1 = (object[,])rng1.Value2;
@@ -264,10 +326,18 @@ namespace ExcelClass
                 }
             }
 
-            excel.Quit();
-            GC.Collect();
-
             return newData;
         }
+
+
+
+
+
+
+
+
+
+
+
     }
 }
