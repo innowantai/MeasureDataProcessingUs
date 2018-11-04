@@ -51,8 +51,9 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ExcelClass">
-      <HintPath>..\..\2.動態庫\ExcelClass\ExcelClass\bin\Debug\ExcelClass.dll</HintPath>
+    <Reference Include="ExcelClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\所有動態庫檔\ExcelClass\ExcelClass\bin\Debug\ExcelClass.dll</HintPath>
     </Reference>
     <Reference Include="GPS_RES">
       <HintPath>..\..\2.動態庫\GPS_RES\GPS_RES\bin\Debug\GPS_RES.dll</HintPath>

@@ -1,4 +1,4 @@
-C:\Users\Wantai\Desktop\TC1101_GSI
-1
+C:\Users\Wantai\Desktop\MeasureDataProcessingUs\Z_OK\0_儀器資料處理CSharp\Template\1_DAT
+0
 0
 0.009
