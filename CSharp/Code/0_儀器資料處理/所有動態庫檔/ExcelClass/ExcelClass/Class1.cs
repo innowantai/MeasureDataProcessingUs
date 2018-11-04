@@ -168,6 +168,7 @@ namespace ExcelClass
 
         public static void Save(string strPath, string sheetNumber, int poRow, int poCol, string[,] Data)
         {
+             
             //创建Application
             Excel.Application excelApp = new Excel.Application();
             //设置是否显示警告窗体
@@ -234,6 +235,87 @@ namespace ExcelClass
             return newData;
         }
 
+        public static string[,] ReadBySheetName(string fullPath, int RowStartPo, int ColStartPo, string SheetName)
+        {
+            string[] Engpo = new string[] { "", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
+
+
+            object missing = System.Reflection.Missing.Value;
+            Excel.Application excel = new Excel.Application();//lauch excel application 
+            excel.Visible = false; excel.UserControl = true;
+            excel.DisplayAlerts = false;
+            // 以只读的形式打开EXCEL文件  
+            Excel.Workbook wb = excel.Application.Workbooks.Open(fullPath, missing, true, missing, missing, missing, missing, missing, missing, true, missing, missing, missing, missing, missing);
+            //取得第 SheetNum 个工作薄  
+
+            List<string> sheets = GetSheets(wb);
+            var SheetNum = sheets.IndexOf(SheetName) + 1;
+
+            Excel.Worksheet ws = (Excel.Worksheet)wb.Worksheets.get_Item(SheetNum);
+            string[,] newData = ReadGetData(ws, RowStartPo, ColStartPo, Engpo);
+
+
+            excel.Quit();
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(excel);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(wb);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(ws);
+            GC.Collect();
+            return newData;
+        }
+
+
+        private static List<string> GetSheets(Excel.Workbook book)
+        {
+             
+             
+            int sheetCount = book.Sheets.Count;
+            Worksheet ws = (Worksheet)book.Sheets[sheetCount];
+            Worksheet sheet = null;
+            //// 檢查sheets 是否已存在,
+            bool exist = false;
+            List<string> sheets = new List<string>();
+            for (int i = 1; i < sheetCount + 1; i++)
+            {
+                Worksheet indSheet = (Worksheet)book.Sheets[i];
+                sheets.Add(indSheet.Name);
+            }
+
+            return sheets;
+        }
+
+
+
+        public static List<string> GetSheets(string strPath)
+        {
+
+            Excel.Application excelApp = new Excel.Application();
+            excelApp.DisplayAlerts = false;
+            excelApp.Visible = false;
+            excelApp.ScreenUpdating = false;
+
+            Excel.Workbook book = excelApp.Workbooks.Open(strPath);
+            int sheetCount = book.Sheets.Count;
+            Worksheet ws = (Worksheet)book.Sheets[sheetCount];
+            Worksheet sheet = null;
+            //// 檢查sheets 是否已存在,
+            bool exist = false;
+            List<string> sheets = new List<string>();
+            for (int i = 1; i < sheetCount + 1; i++)
+            {
+                Worksheet indSheet = (Worksheet)book.Sheets[i];
+                sheets.Add(indSheet.Name); 
+            }
+
+            book.Close();
+            excelApp.Quit();
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(book); 
+            GC.Collect();
+            return sheets;
+        }
+
+
+         
 
 
         public static List<string[,]> Read(string fullPath, int RowStartPo, int ColStartPo, string SheetNumAll)
@@ -288,6 +370,9 @@ namespace ExcelClass
 
 
 
+
+
+
         private static string[,] ReadGetData(Excel.Worksheet ws, int RowStartPo , int ColStartPo, string[] Engpo)
         {
             //取得总记录行数    (包括标题列)  
@@ -328,7 +413,6 @@ namespace ExcelClass
 
             return newData;
         }
-
 
 
 
