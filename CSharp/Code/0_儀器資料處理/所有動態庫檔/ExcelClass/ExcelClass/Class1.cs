@@ -1,13 +1,150 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.IO;
-using Excel = Microsoft.Office.Interop.Excel;
+using System.Collections.Generic;
 using Microsoft.Office.Interop.Excel;
+using Excel = Microsoft.Office.Interop.Excel;
+using System.Threading;
 
 namespace ExcelClass
 {
+
+    public class EXCEL
+    {
+        private Excel.Application ExcelAPP;
+        private Excel.Workbook workBook;
+        private Dictionary<string, string[,]> DicSheetsData = new Dictionary<string, string[,]>();
+        public List<string> sheets;
+
+        public EXCEL(string fullPath)
+        {
+            this.ExcelAPP = new Excel.Application(); 
+            this.ExcelAPP.Visible = false;
+            this.ExcelAPP.UserControl = true;
+            this.ExcelAPP.DisplayAlerts = false;
+            object missing = System.Reflection.Missing.Value;
+            this.workBook = this.ExcelAPP.Application.Workbooks.Open(fullPath, missing, true, missing, missing, missing, missing, missing, missing, true, missing, missing, missing, missing, missing);
+            this.sheets = GetSheets();
+        }
+
+
+        public Dictionary<string, string[,]> GetSheetsData()
+        {
+            foreach (string ss in sheets) 
+               this.DicSheetsData[ss] = ReadBySheetName(1, 1, ss); 
+
+            return DicSheetsData;
+        }
+
+
+        public string[,] ReadBySheetName(int RowStartPo, int ColStartPo, string SheetName)
+        {
+            string[] Engpo = new string[] { "", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
+
+            
+            var SheetNum = sheets.IndexOf(SheetName) + 1;
+
+            Excel.Worksheet ws = (Excel.Worksheet)this.workBook.Worksheets.get_Item(SheetNum);
+            string[,] newData = ReadGetData(ws, RowStartPo, ColStartPo, Engpo); 
+
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(ws); 
+            return newData;
+        }
+
+        private List<string> GetSheets( )
+        {  
+            int sheetCount = this.workBook.Sheets.Count;
+            Worksheet ws = (Worksheet)this.workBook.Sheets[sheetCount]; 
+            List<string> sheets = new List<string>();
+            for (int i = 1; i < sheetCount + 1; i++)
+            {
+                Worksheet indSheet = (Worksheet)this.workBook.Sheets[i];
+                sheets.Add(indSheet.Name);
+            } 
+            return sheets;
+        } 
+
+        private static string[,] ReadGetData(Excel.Worksheet ws, int RowStartPo, int ColStartPo, string[] Engpo)
+        {
+            //取得总记录行数    (包括标题列)  
+            int rowsint = ws.UsedRange.Cells.Rows.Count;            //得到列数    
+            int columnsint = ws.UsedRange.Cells.Columns.Count;      //得到行数   
+            //計算初始位置
+            int[] startPo = new int[] { Convert.ToInt32(ColStartPo / 26), ColStartPo % 26 };
+            startPo[0] = startPo[1] == 0 ? startPo[0] - 1 : startPo[0];
+            startPo[1] = startPo[1] == 0 ? 26 : startPo[1];
+            string StartPo = Engpo[startPo[0]] + Engpo[startPo[1]] + RowStartPo.ToString();
+            //計算結束位置
+            columnsint = columnsint + ColStartPo - 1;
+            int[] endPo = new int[] { Convert.ToInt32(columnsint / 26), columnsint % 26 };
+            endPo[0] = endPo[1] == 0 ? endPo[0] - 1 : endPo[0];
+            endPo[1] = endPo[1] == 0 ? 26 : endPo[1];
+            string EndPo = Engpo[endPo[0]] + Engpo[endPo[1]] + (rowsint + RowStartPo - 1).ToString();
+            //取的全部資料並儲存於arry1
+            Excel.Range rng1 = ws.Cells.get_Range(StartPo, EndPo);
+            object[,] arry1 = (object[,])rng1.Value2;
+            int newRowNumber = arry1.GetLength(0);
+            int newColNumber = arry1.GetLength(1);
+            string[,] newData = new string[newRowNumber, newColNumber];
+
+            for (int i = 1; i <= newRowNumber; i++)
+            {
+                for (int j = 1; j <= newColNumber; j++)
+                {
+                    try
+                    {
+                        newData[i - 1, j - 1] = arry1[i, j].ToString();
+                    }
+                    catch (Exception)
+                    {
+                        newData[i - 1, j - 1] = "";
+                    }
+                }
+            }
+
+            return newData;
+        }
+         
+        public void close()
+        {
+            this.ExcelAPP.Quit();
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(this.ExcelAPP);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(this.workBook);
+            GC.Collect();
+        }
+
+
+
+
+
+
+        /////////////////// Will do
+
+        //private void ThreadTest__GetAllSheetsData()
+        //{
+        //    List<Thread> THREADS = new List<Thread>();
+        //    foreach (string ss in sheets)
+        //    {
+        //        Thread oThreadA = new Thread(new ParameterizedThreadStart());
+        //        oThreadA.Name = ss;
+        //        THREADS.Add(oThreadA);
+        //    }
+
+        //    for (int i = 0; i < sheets.Count(); i++)
+        //    {
+        //        var th = THREADS[i];
+        //        th.Start(sheets[i]);
+        //    }
+        //}
+
+        //private void ThreadTest__GetAllSheetsData_Process(object SheetName)
+        //{
+        //    DicSheetsData[SheetName.ToString()] = ReadBySheetName(1, 1, SheetName.ToString());
+        //}
+    }
+
+
     public class ExcelSaveAndRead
     {
         public static void SaveCreat(string strPath, string sheetName, int poRow, int poCol, string[,] Data)
@@ -238,8 +375,6 @@ namespace ExcelClass
         public static string[,] ReadBySheetName(string fullPath, int RowStartPo, int ColStartPo, string SheetName)
         {
             string[] Engpo = new string[] { "", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
-
-
             object missing = System.Reflection.Missing.Value;
             Excel.Application excel = new Excel.Application();//lauch excel application 
             excel.Visible = false; excel.UserControl = true;
@@ -261,8 +396,7 @@ namespace ExcelClass
             System.Runtime.InteropServices.Marshal.ReleaseComObject(ws);
             GC.Collect();
             return newData;
-        }
-
+        } 
 
         private static List<string> GetSheets(Excel.Workbook book)
         {
@@ -278,8 +412,8 @@ namespace ExcelClass
             {
                 Worksheet indSheet = (Worksheet)book.Sheets[i];
                 sheets.Add(indSheet.Name);
-            }
-
+            } 
+                      
             return sheets;
         }
 
