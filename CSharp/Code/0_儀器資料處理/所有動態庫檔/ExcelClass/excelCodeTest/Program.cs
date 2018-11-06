@@ -11,24 +11,50 @@ namespace excelCodeTest
     {
         static void Main(string[] args)
         {
-            string fPath = @"C:\Users\Wantai\Desktop\ExcelUpdate\ExcelUpdate\bin\Debug\test.xlsx";
-            //List<string> sheets = ExcelSaveAndRead.GetSheets(fPath);
-            //foreach (var ss in sheets)
+            string fPath = @"D:\Users\95074\Desktop\ExcelSheetDataReadTest\SheetTest.xlsx";
+
+
+
+            string[] Engpo = new string[] { "", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
+            List<int> res = new List<int>();
+            int tat = 26789789;
+            TransExcelPo(tat, ref res);
+            res.Reverse();
+            Console.WriteLine(tat);
+            string po = "";
+            foreach (int r in res)
+            {
+                po += Engpo[r];
+            }
+
+            Console.WriteLine(po);
+            //EXCEL excel = new EXCEL(fPath);
+            //List<string> sheets = excel.sheets; 
+            //foreach (string ss in sheets)
             //{
             //    Console.WriteLine(ss);
             //}
+            //string[,] data = excel.ReadBySheetName(1, 1, excel.sheets[0]);
 
-            //string[,] tdata = ExcelSaveAndRead.ReadBySheetName(fPath, 1, 1, "萬萬好帥");
+            //Dictionary<string, string[,]>  resData = excel.GetSheetsData(); 
+        }
 
-            EXCEL excel = new EXCEL(fPath);
-            List<string> sheets = excel.sheets;
-            foreach (string ss in sheets)
+
+        private static void TransExcelPo(int Num, ref List<int> res)
+        {
+            if (Num == 0) return;
+
+            if (Num % 26 != 0 )
             {
-                Console.WriteLine(ss);
+                int rr = Num % 26;
+                res.Add(rr);
+                Num = (Num - rr) / 26 > 0 ? (Num - rr) / 26 : Num - rr;
+                TransExcelPo(Num, ref res);
             }
-            string[,] data = excel.ReadBySheetName(1, 1, excel.sheets[1]);
-
-            Dictionary<string, string[,]>  resData = excel.GetSheetsData(); 
+            else
+            { 
+                res.Add(Num);
+            } 
         }
     }
 }

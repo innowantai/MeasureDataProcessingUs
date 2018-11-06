@@ -77,10 +77,11 @@ namespace ExcelClass
             string StartPo = Engpo[startPo[0]] + Engpo[startPo[1]] + RowStartPo.ToString();
             //計算結束位置
             columnsint = columnsint + ColStartPo - 1;
-            int[] endPo = new int[] { Convert.ToInt32(columnsint / 26), columnsint % 26 };
-            endPo[0] = endPo[1] == 0 ? endPo[0] - 1 : endPo[0];
-            endPo[1] = endPo[1] == 0 ? 26 : endPo[1];
-            string EndPo = Engpo[endPo[0]] + Engpo[endPo[1]] + (rowsint + RowStartPo - 1).ToString();
+            //int[] endPo = new int[] { Convert.ToInt32(columnsint / 26), columnsint % 26 };
+            //endPo[0] = endPo[1] == 0 ? endPo[0] - 1 : endPo[0];
+            //endPo[1] = endPo[1] == 0 ? 26 : endPo[1];
+            string EndPo_ = GetPo(columnsint);
+            string EndPo = EndPo_ + (rowsint + RowStartPo - 1).ToString();
             //取的全部資料並儲存於arry1
             Excel.Range rng1 = ws.Cells.get_Range(StartPo, EndPo);
             object[,] arry1 = (object[,])rng1.Value2;
@@ -105,7 +106,41 @@ namespace ExcelClass
 
             return newData;
         }
-         
+
+
+
+        private static string GetPo(int Num)
+        {
+            string po = "";
+            string[] Engpo = new string[] { "", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
+            List<int> res = new List<int>();
+            TransExcelPo(Num, ref res);
+            res.Reverse();
+            foreach (int ss in res)
+            {
+                po += Engpo[ss];
+            } 
+            return po;
+        }
+
+        private static void TransExcelPo(int Num, ref List<int> res)
+        {
+            if (Num == 0) return;
+
+            if (Num % 26 != 0)
+            {
+                int rr = Num % 26;
+                res.Add(rr);
+                Num = (Num - rr) / 26 > 0 ? (Num - rr) / 26 : Num - rr;
+                TransExcelPo(Num, ref res);
+            }
+            else
+            {
+                res.Add(Num);
+            }
+        }
+
+
         public void close()
         {
             this.ExcelAPP.Quit();
