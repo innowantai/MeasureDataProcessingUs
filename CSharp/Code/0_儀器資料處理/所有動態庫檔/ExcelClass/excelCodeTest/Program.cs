@@ -17,7 +17,7 @@ namespace excelCodeTest
         {
 
             /// 要讀取的Excel檔案名稱
-            string ExcelName = "新增 Microsoft Excel 工作表.xlsx";
+            string ExcelName = "複本 已調整之勞安課程 報名表(華光) (003).xlsx";
 
             /// 要讀取的Excel檔案路徑
             string fPath = Path.Combine(DeskPath, ExcelName);
@@ -26,12 +26,13 @@ namespace excelCodeTest
             EXCEL Excel = new EXCEL(fPath);
 
             /// 讀取所有sheet的資料
-            Dictionary<string, string[,]> AllSheetsData = Excel.GetSheetsData();
+            //Dictionary<string, string[,]> AllSheetsData = Excel.GetSheetsData();
 
             /// 顯示所有Sheet資料
-            ShowAllExcelData(AllSheetsData);
+            //ShowAllExcelData(AllSheetsData);
 
-
+            string[,] Data = Excel.GetDataBySheetNumber(1, 1, 1);
+            ShowData(Data);
         }
 
 

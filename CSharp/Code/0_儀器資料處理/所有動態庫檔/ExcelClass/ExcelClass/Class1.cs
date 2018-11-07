@@ -74,6 +74,23 @@ namespace ExcelClass
         }
 
         /// <summary>
+        /// 讀取指定sheet名稱的資料
+        /// </summary>
+        /// <param name="RowStartPo"> 指定列(row)的開始位置 </param>
+        /// <param name="ColStartPo"> 指定欄(column)的開始位置 </param>
+        /// <param name="SheetName"> 指定excel分頁的名稱 </param>
+        /// <returns></returns>
+        public string[,] GetDataBySheetNumber(int RowStartPo, int ColStartPo, int SheetNnumber)
+        { 
+            Excel.Worksheet ws = (Excel.Worksheet)this.workBook.Worksheets.get_Item(SheetNnumber);
+            string[,] newData = ReadGetData(ws, RowStartPo, ColStartPo);
+
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(ws);
+            return newData;
+        }
+
+
+        /// <summary>
         /// 儲存資料至指定的excel檔案 
         /// </summary>
         /// <param name="strPath"> excel檔案路徑 </param>
