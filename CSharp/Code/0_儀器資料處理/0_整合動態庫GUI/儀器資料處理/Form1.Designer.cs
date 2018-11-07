@@ -176,8 +176,7 @@
             this.txtOutput.Name = "txtOutput";
             this.txtOutput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtOutput.Size = new System.Drawing.Size(610, 477);
-            this.txtOutput.TabIndex = 7;
-            this.txtOutput.TextChanged += new System.EventHandler(this.txtOutput_TextChanged);
+            this.txtOutput.TabIndex = 7; 
             // 
             // 儀器資料處理
             // 

@@ -13,7 +13,9 @@ namespace 儀器資料處理
 {
     public partial class 儀器資料處理 : Form
     {
+        string PastDataPath;
         public string oriPath = System.Environment.CurrentDirectory;
+        public string DefaultPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
         public string lastPath = "";
         public int selectIndex1 = 0;
         public int selectIndex2 = 0;
@@ -29,6 +31,7 @@ namespace 儀器資料處理
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            PastDataPath = Path.Combine(DefaultPath, "PastData.txt");
             LoadPastData();
             listImplement.SelectedIndex = 0;
 
@@ -88,46 +91,46 @@ namespace 儀器資料處理
             {
                 if (listMethod.GetSelected(0))
                 {
-                    res = OBDAT.OBDAT.OBMain_sub(oriPath, savePath, fileName, Standard);
+                    res = OBDAT.OBMain_sub(oriPath, savePath, fileName, Standard);
                 }
             }
             else if (listImplement.GetSelected(1))
             {
                 if (listMethod.GetSelected(0))
                 {
-                    res = TheGSI.TheGSI.TheGSI_Main(savePath, savePath, fileName); 
+                    res = TheGSI.TheGSI_Main(savePath, savePath, fileName); 
                 }
                 else if (listMethod.GetSelected(1))
                 {
-                    res = TheCmpExcelData.TheCmpExcelData.TheCmp_Main(savePath, savePath, fileName);
+                    res = TheCmpExcelData.TheCmp_Main(savePath, savePath, fileName);
                 }
                 else if (listMethod.GetSelected(2))
                 {
-                    res = TheNIKONtoAGA.TheNIKONtoAGA.TheNIKONtoAGA_Main(savePath, savePath, fileName);
+                    res = TheNIKONtoAGA.TheNIKONtoAGA_Main(savePath, savePath, fileName);
                 }
                 else if (listMethod.GetSelected(3))
                 {
-                    res = TheZTStoAGA.TheZTStoAGA.TheZTStoAGA_Main(savePath, savePath, fileName);
+                    res = TheZTStoAGA.TheZTStoAGA_Main(savePath, savePath, fileName);
                 }
                 else if (listMethod.GetSelected(4))
                 {
-                    res = TheJOBtoT01.TheJOBtoT01.TheJOBtoT01_Main(savePath, savePath, fileName);
+                    res = TheJOBtoT01.TheJOBtoT01_Main(savePath, savePath, fileName);
                 }
             }
             else if (listImplement.GetSelected(2))
             {
 
                 if (listMethod.GetSelected(0))
-                {
-                    res = GPS_RES.GPSRES.GPSRES_Main(fileName, savePath, oriPath, savePath); 
+                { 
+                    res = GPS_RES.GPSRES_Main(fileName, savePath, oriPath, savePath); 
                 }
                 else if (listMethod.GetSelected(1))
                 {
-                    res = GPS_SUM.GPSSUM.GPSSUM_main(savePath, savePath, fileName);
+                    res = GPS_SUM.GPSSUM_main(savePath, savePath, fileName);
                 }
                 else if (listMethod.GetSelected(2))
                 {
-                    res = GPS_SORT.GPSSORT.GPSSORT_Main(savePath, savePath, fileName);
+                    res = GPS_SORT.GPSSORT_Main(savePath, savePath, fileName);
                 }
             }
 
@@ -232,17 +235,28 @@ namespace 儀器資料處理
 
         public void LoadPastData()
         {
-            StreamReader sr = new StreamReader(Path.Combine(oriPath, "PastData.txt"));
-            lastPath = sr.ReadLine();
-            selectIndex1 = Convert.ToInt32(sr.ReadLine());
-            selectIndex2 = Convert.ToInt32(sr.ReadLine());
-            obError = sr.ReadLine();
-            sr.Close();
+
+            try
+            { 
+                StreamReader sr = new StreamReader(PastDataPath);
+                lastPath = sr.ReadLine();
+                selectIndex1 = Convert.ToInt32(sr.ReadLine());
+                selectIndex2 = Convert.ToInt32(sr.ReadLine());
+                obError = sr.ReadLine();
+                sr.Close();
+            }
+            catch (Exception)
+            {
+
+                selectIndex1 = 0;
+                selectIndex2 = 0;
+                obError = "0.009";
+            } 
         }
 
         public void SavePastData()
         {
-            StreamWriter sw = new StreamWriter(Path.Combine(oriPath, "PastData.txt"));
+            StreamWriter sw = new StreamWriter(PastDataPath);
             sw.WriteLine(lastPath);
             sw.Flush();
             sw.WriteLine(listImplement.SelectedIndex);
@@ -288,11 +302,7 @@ namespace 儀器資料處理
         {
             e.ItemHeight = e.ItemHeight + 10;
         }
-
-        private void txtOutput_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+         
 
     }
 }

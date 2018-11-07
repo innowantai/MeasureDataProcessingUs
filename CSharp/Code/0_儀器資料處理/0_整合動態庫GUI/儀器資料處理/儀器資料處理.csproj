@@ -55,18 +55,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\所有動態庫檔\ExcelClass\ExcelClass\bin\Debug\ExcelClass.dll</HintPath>
     </Reference>
-    <Reference Include="GPS_RES">
-      <HintPath>..\..\2.動態庫\GPS_RES\GPS_RES\bin\Debug\GPS_RES.dll</HintPath>
-    </Reference>
-    <Reference Include="GPS_SORT">
-      <HintPath>..\..\2.動態庫\GPS_SORT\GPS_SORT\bin\Debug\GPS_SORT.dll</HintPath>
-    </Reference>
-    <Reference Include="GPS_SUM">
-      <HintPath>..\..\2.動態庫\GPS_SUM\GPS_SUM\bin\Debug\GPS_SUM.dll</HintPath>
-    </Reference>
-    <Reference Include="OBDAT">
-      <HintPath>..\..\2.動態庫\OBDAT\OBDAT\bin\Debug\OBDAT.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -77,22 +65,6 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="TheCmpExcelData">
-      <HintPath>..\..\2.動態庫\TheCmpExcelData\TheCmpExcelData\bin\Debug\TheCmpExcelData.dll</HintPath>
-    </Reference>
-    <Reference Include="TheGSI">
-      <HintPath>..\..\2.動態庫\TheGSI\TheGSI\bin\Debug\TheGSI.dll</HintPath>
-    </Reference>
-    <Reference Include="TheJOBtoT01, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\所有動態庫檔\TheJOBtoT01\TheJOBtoT01\bin\Debug\TheJOBtoT01.dll</HintPath>
-    </Reference>
-    <Reference Include="TheNIKONtoAGA">
-      <HintPath>..\..\2.動態庫\TheNIKONtoAGA\TheNIKONtoAGA\bin\Debug\TheNIKONtoAGA.dll</HintPath>
-    </Reference>
-    <Reference Include="TheZTStoAGA">
-      <HintPath>..\..\2.動態庫\TheZTStoAGA\TheZTStoAGA\bin\Debug\TheZTStoAGA.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
@@ -101,8 +73,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GPS_RES.cs" />
+    <Compile Include="GPS_SORT.cs" />
+    <Compile Include="GPS_SUM.cs" />
+    <Compile Include="OBDAT.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TheCmpExcelData.cs" />
+    <Compile Include="TheGSI.cs" />
+    <Compile Include="TheJOBtoT01.cs" />
+    <Compile Include="TheNIKONtoAGA.cs" />
+    <Compile Include="TheZTStoAGA.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
