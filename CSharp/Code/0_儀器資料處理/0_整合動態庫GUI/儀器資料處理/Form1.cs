@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Collections;
+using Assembled;
 
 namespace 儀器資料處理
 {
