@@ -6,11 +6,11 @@ using System.Collections.Generic;
 using Microsoft.Office.Interop.Excel;
 using Excel = Microsoft.Office.Interop.Excel;
 using System.Threading;
- 
+
 namespace ExcelClass
-{ 
+{
     public class EXCEL
-    { 
+    {
         ///// public 公開屬性 : 提供外部存取之屬性，可取得Excel所有分頁名稱
         public List<string> sheets;
         ///// private 私有屬性 : 物件內部處理所使用之屬性
@@ -63,7 +63,7 @@ namespace ExcelClass
         /// <returns></returns>
         public string[,] GetDataBySheetName(int RowStartPo, int ColStartPo, string SheetName)
         {
-             
+
             var SheetNum = sheets.IndexOf(SheetName) + 1;
 
             Excel.Worksheet ws = (Excel.Worksheet)this.workBook.Worksheets.get_Item(SheetNum);
@@ -81,7 +81,7 @@ namespace ExcelClass
         /// <param name="SheetName"> 指定excel分頁的名稱 </param>
         /// <returns></returns>
         public string[,] GetDataBySheetNumber(int RowStartPo, int ColStartPo, int SheetNnumber)
-        { 
+        {
             Excel.Worksheet ws = (Excel.Worksheet)this.workBook.Worksheets.get_Item(SheetNnumber);
             string[,] newData = ReadGetData(ws, RowStartPo, ColStartPo);
 
@@ -103,7 +103,7 @@ namespace ExcelClass
             bool fileExist = File.Exists(strPath);
             //// 若excel 不存在,創建
             if (!fileExist)
-            { 
+            {
                 Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
                 excelApp.Visible = false;              //不顯示excel程式 
                 excelApp.DisplayAlerts = false;        //设置是否显示警告窗体 
@@ -114,8 +114,6 @@ namespace ExcelClass
 
 
                 SaveFunction(strPath, Data, poRow, poCol, excelApp, sheet, book);
-                 
-
             }
             else
             {
@@ -160,7 +158,7 @@ namespace ExcelClass
 
 
                 SaveFunction(strPath, Data, poRow, poCol, excelApp, sheet, book);
-                 
+
             }
         }
 
@@ -189,7 +187,7 @@ namespace ExcelClass
 
 
                 SaveFunction(strPath, Data, poRow, poCol, excelApp, sheet, book);
-                 
+
 
             }
             else
@@ -230,13 +228,12 @@ namespace ExcelClass
                 {
                     sheet = (Worksheet)book.Worksheets.Add(Type.Missing, ws, Type.Missing, Type.Missing);//建立一個新分頁 
                     sheet.Name = sheetName;
-                } 
+                }
 
                 SaveFunction(strPath, Data, poRow, poCol, excelApp, sheet, book);
 
             }
         }
-
 
         /// <summary>
         /// 關閉Excel物件程序
@@ -251,23 +248,44 @@ namespace ExcelClass
 
         //////// 以下為 private 私有方法(函數), 物件內部處理所使用之方法(函數), 不提供外部存取
 
+        private string[,] VECTOR_Transfer(List<List<VECTOR>> Datas)
+        {
+            int num = Datas.Count * 3;
+            string[,] Data = new string[Datas[0].Count(), num];
+
+            for (int i = 0; i < Datas.Count; i += 3)
+            {
+                List<VECTOR> tmpData = Datas[i];
+                for (int k = 0; k < tmpData.Count(); k++)
+                {
+                    Data[k, i] = tmpData[k].X.ToString();
+                    Data[k, i + 1] = tmpData[k].Y.ToString();
+                    Data[k, i + 2] = tmpData[k].Z.ToString();
+                }
+            }
+
+            return Data;
+        }
+
+
+
         /// <summary>
         /// 檢查指定的excel檔案是否存在，否則創立
         /// </summary>
         /// <param name="strPath"> excel檔案路徑 </param>
         /// <returns></returns>
         private Workbook Is_Exist(string strPath)
-        { 
+        {
             bool fileExist = File.Exists(strPath);
             Workbook book;
             //// 若excel 不存在,創建
             if (!fileExist)
-            { 
+            {
                 Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
                 excelApp.Visible = false;              //不顯示excel程式 
                 excelApp.DisplayAlerts = false;        //设置是否显示警告窗体 
                 book = excelApp.Workbooks.Add(XlWBATemplate.xlWBATWorksheet);
-                Worksheet sheet = (Worksheet)book.Sheets[1]; 
+                Worksheet sheet = (Worksheet)book.Sheets[1];
                 sheet.Activate();
             }
             else
@@ -291,11 +309,11 @@ namespace ExcelClass
         /// <param name="excelApp"> 目標儲存的excel app 物件 </param>
         /// <param name="sheet">目標儲存的excel sheet 物件 </param>
         /// <param name="book">目標儲存的excel book 物件 </param>
-        private static void SaveFunction(string strPath, string[,] Data, int poRow, int poCol, Excel.Application excelApp, Worksheet sheet, Workbook book)
+        private void SaveFunction(string strPath, string[,] Data, int poRow, int poCol, Excel.Application excelApp, Worksheet sheet, Workbook book)
         {
             //// All into sheet
             int endRow = Data.GetLength(0) + poRow - 1;
-            int endCol = Data.GetLength(1) + poCol - 1; 
+            int endCol = Data.GetLength(1) + poCol - 1;
 
             string StartPoString = GetPo(poCol);
             string EngPoString = GetPo(endCol);
@@ -342,17 +360,17 @@ namespace ExcelClass
         /// <param name="RowStartPo"> 啟始列(row)的位置 </param>
         /// <param name="ColStartPo"> 啟始欄(column)的位置 </param> 
         /// <returns></returns>
-        private static string[,] ReadGetData(Excel.Worksheet ws, int RowStartPo, int ColStartPo)
+        private string[,] ReadGetData(Excel.Worksheet ws, int RowStartPo, int ColStartPo)
         {
             //取得总记录行数    (包括标题列)  
             int rowsint = ws.UsedRange.Cells.Rows.Count;            //得到列数    
             int columnsint = ws.UsedRange.Cells.Columns.Count;      //得到行数   
             //計算初始位置
             int[] startPo = new int[] { Convert.ToInt32(ColStartPo / 26), ColStartPo % 26 };
-            string StartPo_ = GetPo(ColStartPo); 
+            string StartPo_ = GetPo(ColStartPo);
             string StartPo = StartPo_ + RowStartPo.ToString();
             //計算結束位置
-            columnsint = columnsint + ColStartPo - 1; 
+            columnsint = columnsint + ColStartPo - 1;
             string EndPo_ = GetPo(columnsint);
             string EndPo = EndPo_ + (rowsint + RowStartPo - 1).ToString();
             //取的全部資料並儲存於arry1
@@ -362,6 +380,8 @@ namespace ExcelClass
             int newColNumber = arry1.GetLength(1);
             string[,] newData = new string[newRowNumber, newColNumber];
 
+            int Last_I = 0;
+            int Last_J = 0;
             for (int i = 1; i <= newRowNumber; i++)
             {
                 for (int j = 1; j <= newColNumber; j++)
@@ -374,10 +394,30 @@ namespace ExcelClass
                     {
                         newData[i - 1, j - 1] = "";
                     }
+
+                    if (newData[i - 1, j - 1] != "")
+                    {
+                        Last_I = i - 1 > Last_I ? i - 1 : Last_I;
+                        Last_J = j - 1 > Last_J ? j - 1 : Last_J;
+                    }
                 }
             }
 
-            return newData;
+            string[,] resData = new string[Last_I+1, Last_J+1];
+            for (int i = 0; i <= Last_I; i++)
+            {
+                for (int j = 0; j <= Last_J; j++)
+                {
+                    resData[i, j] = newData[i, j];
+                }
+            }
+            
+
+
+
+
+
+            return resData;
         }
 
         /// <summary>
@@ -385,7 +425,7 @@ namespace ExcelClass
         /// </summary>
         /// <param name="Num"></param>
         /// <returns></returns>
-        private static string GetPo(int Num)
+        private string GetPo(int Num)
         {
             string po = "";
             string[] Engpo = new string[] { "", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
@@ -404,7 +444,7 @@ namespace ExcelClass
         /// </summary>
         /// <param name="Num"> 欄位數字 </param>
         /// <param name="res"> 轉換後的代號位置數至 </param>
-        private static void TransExcelPo(int Num, ref List<int> res)
+        private void TransExcelPo(int Num, ref List<int> res)
         {
             if (Num == 0) return;
 
@@ -422,7 +462,7 @@ namespace ExcelClass
         }
 
 
-         
+
 
 
         /////////////////// Will do
