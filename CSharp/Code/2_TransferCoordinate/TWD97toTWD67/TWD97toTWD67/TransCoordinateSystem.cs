@@ -82,6 +82,7 @@ namespace TWD97toTWD67
             string N4 = QxQy[Convert.ToInt32(Math.Floor(Rem_N / 100))];
             double R3 = Math.Round(Rem_E % 100);
             double R4 = Math.Round(Rem_N % 100);
+            R3 = R3 >= 100 ? (R3 - 100) : R3;
             double N5 = Math.Floor(R3 / 10);
             double N6 = Math.Floor(R4 / 10);
             double N7 = Math.Round(R3 % 10);
