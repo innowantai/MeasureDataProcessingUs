@@ -34,12 +34,20 @@ namespace TWD97toTWD67
         private string[,] Title1 = new string[,] { { "點號", "N", "E", "正高", "橢球高", "N", "E", "正高", "橢球高" } };
         private string[,] Title2 = new string[,] { { "點號", "N", "E", "正高", "橢球高", "點號", "N", "E", "正高" } };
         private string[,] newTitle = new string[,] { { "TWD97", "", "", "", "", "TWD67", } };
+        private string[,] ResultTopTitle = new string[,] {
+            { "配合辦理管線定位測量、管線施作及圖資更新維護作業明細表"  },
+            { "DCIS:" },
+            { "施工號碼:" },
+            { "" }, };
+        private string[,] ResultBtnTitle = new string[,] {
+            { "" ,"","","","",""},
+            { "" ,"","","","",""},
+            { "測量技術士簽名:" ,"","","","","" },
+            { "    ☐符合                 ☐未符合" ,"","","","",""},
+            { "" ,"","","","",""},
+            { "經辦人:","","","課長:","","" },
+            { "" ,"","","","",""}, };
 
-        public TransCoordinateSystem()
-        {
-
-
-        }
 
         public void Main_start(string FileFullPath, string SavePath, string SaveFileName)
         {
@@ -53,10 +61,14 @@ namespace TWD97toTWD67
 
             for (int i = 0; i < OriData.GetLength(0); i++) Main_TWD97toTWD67(ref OriData, i);
 
-
-            excel.Save("TWD97轉TWD67", 1, 1, CombineArray(CombineArray(this.newTitle, this.Title2), OriData));
+            string[,] res_1 = CombineArray(CombineArray(this.newTitle, this.Title2), OriData);
+            string[,] res_2 = CombineArray(this.ResultTopTitle, res_1);
+            string[,] res_3 = CombineArray(res_2, this.ResultBtnTitle);
+            //excel.Save("TWD97轉TWD67", 1, 1, CombineArray(CombineArray(this.newTitle, this.Title2), OriData));
+            excel.Save_ChangeFormat("TWD97轉TWD67", 1, 1, res_3);
             excel.close();
         }
+
 
 
         private string Main_TWD97toTWD67(ref string[,] resData, int index)
