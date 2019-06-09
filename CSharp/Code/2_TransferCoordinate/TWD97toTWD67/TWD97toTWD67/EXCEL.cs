@@ -416,33 +416,37 @@ namespace TWD97toTWD67
             range.Value2 = range.Value2;
 
 
-            Style_FontSize(sheet, 1, 1, 1, 12, 18);
-            Style_FontBord(sheet, 1, 1, 1, 12);
-            Style_Merge(sheet, 1, 1, 1, 12);
-            Style_Alignment(sheet, 1, 1, 1, 12);
+            int headNum = 9;
+            Style_FontSize(sheet, 1, 1, 1, headNum, 18);
+            //Style_FontBord(sheet, 1, 1, 1, 12);
+            Style_Merge(sheet, 1, 1, 1, headNum);
+            Style_Alignment(sheet, 1, 1, 1, headNum, 0);
 
             Style_FontSize(sheet, 2, 1, 1, 1, 14);
-            Style_FontBord(sheet, 2, 1, 1, 1);
+            //Style_FontBord(sheet, 2, 1, 1, 1);
 
             Style_FontSize(sheet, 3, 1, 1, 1, 14);
-            Style_FontBord(sheet, 3, 1, 1, 1);
+            //Style_FontBord(sheet, 3, 1, 1, 1);
 
 
             int Row_Len = Data.GetLength(0);
             Style_BorderWeight(sheet, 6, 1, Row_Len - 12, 9, 2);
+            Style_AutoFit(sheet, 6, 1, Row_Len - 12, 9); 
+            Style_Alignment(sheet, 6, 1, Row_Len - 12, 9, 1);
 
 
-            int btn_Po = Data.GetLength(0) - 4; 
-            Style_BorderWeightWithDirection(sheet, btn_Po, 1, 5, 6, 4, "LL");
-            Style_BorderWeightWithDirection(sheet, btn_Po, 1, 5, 6, 4, "TT");
-            Style_BorderWeightWithDirection(sheet, btn_Po, 1, 5, 6, 4, "RR");
-            Style_BorderWeightWithDirection(sheet, btn_Po, 1, 5, 6, 4, "BB");
-            Style_FontSize(sheet, btn_Po, 1, 4, 6, 14);
-            Style_FontBord(sheet, btn_Po, 1, 1, 1);
-            Style_FontBord(sheet, btn_Po + 3, 1, 1, 10); 
-            Style_Merge(sheet, btn_Po, 1, 1, 2);
-            Style_Merge(sheet, btn_Po + 1, 1, 2, 4);
+            int btn_Po = Data.GetLength(0) - 4;
+            Style_BorderWeightWithDirection(sheet, btn_Po, 4, 5, 6, 4, "LL");
+            Style_BorderWeightWithDirection(sheet, btn_Po, 4, 5, 6, 4, "TT");
+            Style_BorderWeightWithDirection(sheet, btn_Po, 4, 5, 6, 4, "RR");
+            Style_BorderWeightWithDirection(sheet, btn_Po, 4, 5, 6, 4, "BB");
+            //Style_FontSize(sheet, btn_Po, 1, 4, 6, 14);
+            //Style_FontBord(sheet, btn_Po, 1, 1, 1);
+            //Style_FontBord(sheet, btn_Po + 3, 1, 1, 10); 
+            //Style_Merge(sheet, btn_Po, 1, 1, 2);
+            //Style_Merge(sheet, btn_Po + 1, 1, 2, 4);
 
+            Style_BGColor(sheet, 1, 1, Row_Len, 9, 2);
 
             book.SaveAs(strPath, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Excel.XlSaveAsAccessMode.xlNoChange, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing);
             sheet.SaveAs(strPath);
@@ -500,15 +504,15 @@ namespace TWD97toTWD67
             else
             {
                 ra.Borders[XlBordersIndex.xlEdgeBottom].Weight = Weight;
-            } 
-            ra.Columns.AutoFit();
+            }
+            //ra.Columns.AutoFit();
             //ra.Borders.Weight = Excel.XlBorderWeight.xlThin; 
         }
 
 
 
 
-        private void Style_Alignment(Worksheet sheet, int poRow, int poCol, int Len_row, int Len_Col)
+        private void Style_Alignment(Worksheet sheet, int poRow, int poCol, int Len_row, int Len_Col, int Dir)
         {
             //// All into sheet
             int endRow = Len_row + poRow - 1;
@@ -519,7 +523,14 @@ namespace TWD97toTWD67
 
             Range ra = sheet.get_Range(StartPoString + poRow.ToString(),
                                        EngPoString + endRow.ToString());
-            ra.HorizontalAlignment = Excel.XlVAlign.xlVAlignCenter;
+            if (Dir == 0)
+            {
+                ra.HorizontalAlignment = Excel.XlVAlign.xlVAlignCenter;
+            }
+            else if (Dir == 1)
+            { 
+                ra.HorizontalAlignment = Excel.XlVAlign.xlVAlignJustify;
+            }
         }
 
 
@@ -535,6 +546,34 @@ namespace TWD97toTWD67
             Range ra = sheet.get_Range(StartPoString + poRow.ToString(),
                                        EngPoString + endRow.ToString());
             ra.Font.Size = fontSize;
+        }
+
+        private void Style_BGColor(Worksheet sheet, int poRow, int poCol, int Len_row, int Len_Col, int Color)
+        {
+            //// All into sheet
+            int endRow = Len_row + poRow - 1;
+            int endCol = Len_Col + poCol - 1;
+
+            string StartPoString = GetPo(poCol);
+            string EngPoString = GetPo(endCol);
+
+            Range ra = sheet.get_Range(StartPoString + poRow.ToString(),
+                                       EngPoString + endRow.ToString());
+            ra.Interior.ColorIndex = Color;
+        }
+
+        private void Style_AutoFit(Worksheet sheet, int poRow, int poCol, int Len_row, int Len_Col)
+        {
+            //// All into sheet
+            int endRow = Len_row + poRow - 1;
+            int endCol = Len_Col + poCol - 1;
+
+            string StartPoString = GetPo(poCol);
+            string EngPoString = GetPo(endCol);
+
+            Range ra = sheet.get_Range(StartPoString + poRow.ToString(),
+                                       EngPoString + endRow.ToString());
+            ra.Columns.AutoFit();
         }
 
         private void Style_FontBord(Worksheet sheet, int poRow, int poCol, int Len_row, int Len_Col)
