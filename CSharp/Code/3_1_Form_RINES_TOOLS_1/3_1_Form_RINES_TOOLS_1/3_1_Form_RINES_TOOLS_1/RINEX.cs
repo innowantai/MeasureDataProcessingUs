@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Diagnostics;
 
-namespace _3_0_Consloe_RINEX_TOOLS_1
+namespace _3_1_Form_RINES_TOOLS_1
 {
     public class RINEX
     {
