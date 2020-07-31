@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btn_執行 = new System.Windows.Forms.Button();
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // btn_執行
@@ -42,6 +43,10 @@
             this.btn_執行.Text = "執行";
             this.btn_執行.UseVisualStyleBackColor = true;
             this.btn_執行.Click += new System.EventHandler(this.btn_執行_Click);
+            // 
+            // toolTip2
+            // 
+            this.toolTip2.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip2_Popup);
             // 
             // Form1
             // 
@@ -60,6 +65,7 @@
 
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button btn_執行;
+        private System.Windows.Forms.ToolTip toolTip2;
     }
 }
 

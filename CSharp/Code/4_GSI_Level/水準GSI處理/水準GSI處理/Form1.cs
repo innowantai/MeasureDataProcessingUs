@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace 水準GSI處理
 {
@@ -26,42 +27,19 @@ namespace 水準GSI處理
         {
             string filePath = @"C:\Users\innow\Desktop\MeasureDataProcessingUs\CSharp\Code\4_GSI_Level\TryData\M_0616JD\M_0616JD.GSI";
 
-            this.LoadingGSIData(filePath);
+            List<List<string>> GroupDatgas = Functions.
+                                             DataProcess.
+                                             LoadingAndClassGSIData(filePath);
+
+            foreach (List<string> item in GroupDatgas)
+            {
+                GroupData gd = new GroupData(item); ;
+                gd.Process();
+            }
         }
 
-
-
-        private void LoadingGSIData(string filePath)
+        private void toolTip2_Popup(object sender, PopupEventArgs e)
         {
-            List<string> tmpData = new List<string>();
-            using ( StreamReader sr = new StreamReader(filePath))
-            {
-                while (sr.Peek() != -1)
-                {
-                    tmpData.Add(sr.ReadLine());
-                }
-            }
-
-            List<string> tmp = new List<string>();
-            List<List<string>> GroupDatas = new List<List<string>>();
-            for (int i = 0; i < tmpData.Count; i++)
-            {
-                if (tmpData[i].Length == 25)
-                {
-                    if (tmp.Count != 0) GroupDatas.Add(tmp); 
-                    tmp = new List<string>();
-                }
-                else if (tmpData[i].Length == 145)
-                {
-                    tmp.Add(tmpData[i - 4]);
-                    tmp.Add(tmpData[i - 3]);
-                    tmp.Add(tmpData[i - 2]);
-                    tmp.Add(tmpData[i - 1]);
-                }
-            }
-            GroupDatas.Add(tmp);
-            /// 25    145
-            /// 
 
         }
     }
